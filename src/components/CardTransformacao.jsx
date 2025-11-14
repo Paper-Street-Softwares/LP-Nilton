@@ -18,9 +18,9 @@ function CardTransformacao({ data, styles }) {
         {pontos
           .filter((ponto) => ponto.index !== 0)
           .map((ponto) => (
-            <li key={ponto.index} className="flex items-center">
+            <li key={ponto.index} className="flex items-top">
               <span
-                className={`flex-shrink-0 h-2.5 w-2.5 rounded-full mr-3 ${bulletClasses}`}
+                className={`flex-shrink-0 h-2.5 w-2.5 rounded-full mt-[10px] mr-3 ${bulletClasses}`}
               ></span>
 
               <span className={textoClasses}>{ponto.texto}</span>

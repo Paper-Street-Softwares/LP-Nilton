@@ -8,62 +8,86 @@ const content = {
       segundaParte: "7483",
     },
     mensagemWhatsapp:
-      "Olá! Vim através do site e gostaria de tirar umas dúvidas.",
+      "Olá! Vim através do site e gostaria de tirar algumas dúvidas sobre meu caso.",
   },
 
   hero: {
     texts: {
-      etiqueta: "Advogado em Santo André - SP",
-      titulo: "Precisando de *ajuda* com seus direitos?",
+      etiqueta: "Advogado em Santo André – SP",
+      titulo: "Precisando de ajuda com seus direitos violados?",
       subtitulo:
-        "Com 10 anos de experiência, atendo trabalhadores, famílias e consumidores que precisam resolver conflitos com clareza, segurança e acompanhamento direto comigo do início ao fim.",
+        "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa para evitar mais desgaste.",
       labelBotaoPrincial: "Fale comigo agora mesmo",
-      labelBotaoSecundario: "Quero meu caso analisado",
+      labelBotaoSecundario: "Agendar horário",
     },
   },
 
   features: {
     texts: {
-      titulo: "Como posso te ajudar",
+      titulo: "Como ajudo em cada situação",
       labelBotaoPrincial: "Fale comigo agora mesmo",
     },
     cards: [
       {
         index: 1,
         icone: Scale,
-        titulo: "Demissão e verbas",
+        titulo: "Direitos trabalhistas",
         descricao:
-          "Analiso documentos, comprovo direitos e te acompanho na busca pelo que a empresa deixou de cumprir.",
+          "Assumo seu caso e busco corrigir demissão injusta, verbas atrasadas e assédio.",
       },
       {
         index: 2,
         icone: Clock,
+        titulo: "Horas extras e pressão",
+        descricao:
+          "Te ajudo a comprovar horas não pagas e lidar com cobranças abusivas no trabalho.",
+      },
+      {
+        index: 3,
+        icone: Scale,
         titulo: "Guarda e pensão",
         descricao:
-          "Te oriento em cada decisão para proteger seus filhos e diminuir conflitos desnecessários.",
+          "Acompanho seu conflito familiar para proteger seus filhos e reduzir o desgaste.",
+      },
+      {
+        index: 4,
+        icone: Clock,
+        titulo: "Problemas de consumo",
+        descricao:
+          "Ajo quando você sofre prejuízo, cobrança indevida ou negativa injusta.",
       },
     ],
+    cta: {
+      label: "Seja atendido por mim agora mesmo",
+    },
   },
 
   transformacao: {
     texts: {
-      titulo: "Sua vida antes e depois da minha atuação",
-      labelBotaoPrincial: "Quero resolver meu caso agora",
+      titulo: "Como sua vida muda comigo",
+      labelBotaoPrincial: "Seja atendido por mim agora mesmo",
     },
     antes: {
       etiqueta: "ANTES",
       pontos: [
         {
           index: 1,
-          texto: "Você não entende por que seus direitos foram negados",
+          texto:
+            "Você tenta resolver tudo sozinho e só encontra portas fechadas",
         },
         {
           index: 2,
-          texto: "Carrega medo de perder valores ou a convivência dos filhos",
+          texto:
+            "A insegurança cresce porque ninguém te explica o que realmente fazer",
         },
         {
           index: 3,
-          texto: "Se sente sozinho enfrentando empresa ou ex-companheiro",
+          texto:
+            "Você perde tempo com atendimentos que não te escutam de verdade",
+        },
+        {
+          index: 4,
+          texto: "A ansiedade aumenta enquanto o problema só piora com o tempo",
         },
       ],
     },
@@ -73,15 +97,21 @@ const content = {
       pontos: [
         {
           index: 1,
-          texto: "Recebe orientação clara e acompanha tudo diretamente comigo",
+          texto: "Você entende cada passo do caso e segue com mais segurança",
         },
         {
           index: 2,
-          texto: "Consegue organizar provas e fortalecer sua segurança",
+          texto:
+            "Eu te atualizo sempre, evitando dúvidas e reduzindo o desgaste",
         },
         {
           index: 3,
-          texto: "Segue sua vida com mais tranquilidade e menos desgaste",
+          texto:
+            "Você deixa de enfrentar tudo sozinho e ganha clareza no caminho",
+        },
+        {
+          index: 4,
+          texto: "Seu problema avança com estratégia feita para sua realidade",
         },
       ],
     },
@@ -89,51 +119,42 @@ const content = {
 
   cta: {
     texts: {
-      etiqueta: "Atuação direta comigo",
+      etiqueta: "Atendimento direto com o advogado",
       titulo:
-        "Resolva seu caso com rapidez e orientação que evita erros e atrasos",
-      labelBotaoPrincial: "Quero falar com o advogado agora",
+        "Não adie mais: seu caso needs de atenção agora para evitar mais prejuízos e desgaste",
+      labelBotaoPrincial: "Fale comigo agora mesmo",
     },
     pontos: [
-      { index: 1, texto: "Atendimento direto com o advogado" },
-      { index: 2, texto: "Acompanhamento claro do processo" },
-      { index: 3, texto: "Análise completa do seu caso" },
-      { index: 4, texto: "Estratégia específica para sua situação" },
+      { index: 1, texto: "Contato direto comigo" },
+      { index: 2, texto: "Explico cada passo sem complicação" },
+      { index: 3, texto: "Atualizações constantes do processo" },
+      { index: 4, texto: "Estratégia definida para sua situação" },
     ],
   },
 
   about: {
     texts: {
-      titulo: "Meu compromisso com seu caso",
-      labelBotaoPrincial: "Começar atendimento",
+      titulo: "Por que confiam em mim",
+      labelBotaoPrincial: "Fale comigo agora mesmo",
     },
     pontos: [
-      {
-        index: 1,
-        texto:
-          "Atuo diariamente em casos trabalhistas, familiares e do consumidor, garantindo que cada cliente receba atenção direta e estratégica.",
-      },
-      {
-        index: 2,
-        texto:
-          "Minha experiência de 10 anos me permite identificar rapidamente caminhos para resolver conflitos com segurança e organização.",
-      },
-      {
-        index: 3,
-        texto:
-          "Priorizar clareza, comunicação e atualização constante faz parte da minha rotina.",
-      },
+      { index: 1, texto: "Contato direto comigo" },
+      { index: 2, texto: "Atualizações frequentes do processo" },
+      { index: 3, texto: "Estratégia feita para seu caso" },
+      { index: 4, texto: "Explicação clara de cada etapa" },
+      { index: 5, texto: "Atendimento humanizado e rápido" },
+      { index: 6, texto: "Acompanhamento próximo do início ao fim" },
     ],
   },
 
   footer: {
     texts: {
-      etiqueta: "Fale diretamente comigo",
-      titulo: "Pronto para resolver seu caso?",
-      subtitulo: "Pronto para resolver seu caso",
-      labelBotaoPrincial: "Chamar no WhatsApp",
-      direitosReservados: "Todos os direitos reservados",
-      desenvolvidoPor: "Desenvolvido por Paper Street Softwares",
+      etiqueta: "Pronto para começar?",
+      titulo: "Fale comigo agora e evite que seu problema piore",
+      labelBotaoPrincial: "Seja atendido por mim agora mesmo",
+      direitosReservados:
+        "2025 • Nilton Correia • Todos os direitos reservados • Políticas de privacidade",
+      desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
     },
     pontos: {
       ponto1: "Profissionalismo",
