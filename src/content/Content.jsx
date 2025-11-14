@@ -14,11 +14,13 @@ const content = {
   hero: {
     imagens: {
       backgroundHero:
-        "https://www.shutterstock.com/image-illustration/legal-concept-themis-goddess-justice-600nw-2467887949.jpg",
+        "https://matthausadvocacia.com.br/assets/bgHeroLp03-Bgytujwp.webp",
+      focadaHero:
+        "https://matthausadvocacia.com.br/assets/bgHeroLp03-Bgytujwp.webp",
       logo: "https://pachecoepeixotoadvogados.com.br/assets/logo-DX5AC2R1.png",
     },
     texts: {
-      etiqueta: "Advogado em Santo André – SP",
+      etiqueta: "Advogado em Santo André - SP",
       titulo: "Precisando de ajuda com seus direitos violados?",
       subtitulo:
         "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa para evitar mais desgaste.",

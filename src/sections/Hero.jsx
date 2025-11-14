@@ -12,10 +12,10 @@ export default function Hero() {
             alt="Imagem ilustrativa"
             class="w-full h-full object-cover"
           />
-          <div class="absolute inset-0 bg-black/85"></div>
+          <div class="absolute inset-0 bg-black/95 lg:bg-black/85"></div>
         </div>
 
-        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 sm:py-28 lg:py-36 text-center text-fontLighter">
+        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 sm:pt-16 lg:pt-36 lg:pb-28 text-center text-fontLighter">
           <MotionDivDownToUp>
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
               <img
@@ -25,7 +25,14 @@ export default function Hero() {
               />
             </div>
           </MotionDivDownToUp>
-
+          <MotionDivDownToUp className="flex justify-center w-full mb-8 lg:hidden">
+            <div
+              style={{
+                backgroundImage: `url(${content.hero.imagens.focadaHero})`,
+              }}
+              className="bg-center bg-no-repeat bg-cover h-[320px] w-[450px] md:h-[600px] md:w-[600px] rounded-xl"
+            />
+          </MotionDivDownToUp>
           <MotionDivDownToUp>
             <span className="inline-flex mb-6 items-center rounded-full bg-black/60 px-4 py-1.5 text-sm font-medium text-fontLighter/80 ring-1 ring-inset ring-neutral-400">
               {content.hero.texts.etiqueta}
