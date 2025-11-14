@@ -30,7 +30,7 @@ export default function Cta() {
               </h2>
             </MotionDivDownToUp>
 
-            <div className="max-w-3xl p-8 mx-auto mt-10 shadow-lg rounded-2xl sm:p-12">
+            <div className="max-w-3xl mx-auto mt-10 shadow-lg rounded-2xl">
               <MotionDivDownToUp>
                 <div className="inline-block mb-16 text-left">
                   <ul className="space-y-5">
