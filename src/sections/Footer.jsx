@@ -1,3 +1,5 @@
+import MotionDivDownToUp from "../components/Animations/MotionDivDownToUp";
+import SectionArea from "../components/sectionElements/SectionArea";
 import content from "../content/Content";
 
 export default function Footer() {
@@ -6,71 +8,84 @@ export default function Footer() {
       <div className="relative">
         <div class="absolute inset-0 z-0">
           <img
-            src="https://www.shutterstock.com/image-illustration/legal-concept-themis-goddess-justice-600nw-2467887949.jpg"
+            src={content.footer.imagem.baclground}
             alt="Imagem ilustrativa"
             class="w-full h-full object-cover"
           />
           <div class="absolute inset-0 bg-black/90"></div>
         </div>
-        <div className="relative z-10 px-4 py-16 mx-auto text-center max-w-7xl sm:py-24 sm:px-6 lg:px-8">
-          <span className="inline-flex items-center rounded-full bg-darker text-lighter font-semibold text-xs px-4 py-1.5 uppercase tracking-wider ring-1 ring-inset ring-white/10">
-            <svg
-              className="w-4 h-4 mr-1.5"
-              xmlns="http://www.w3.org/2000/svg"
-              fill="none"
-              viewBox="0 0 24 24"
-              strokeWidth="1.5"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
-              />
-            </svg>
-            {content.footer.texts.etiqueta}
-          </span>
+        <SectionArea>
+          <div className="relative z-10 px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
+            <MotionDivDownToUp>
+              <span className="inline-flex items-center rounded-full bg-darker text-lighter font-semibold text-xs px-4 py-1.5 uppercase tracking-wider ring-1 ring-inset ring-white/10">
+                <svg
+                  className="w-4 h-4 mr-1.5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
+                {content.footer.texts.etiqueta}
+              </span>
+            </MotionDivDownToUp>
 
-          <h2 className="max-w-3xl mx-auto mt-6 text-3xl font-bold text-white lg:text-4xl">
-            {content.footer.texts.titulo}
-          </h2>
+            <MotionDivDownToUp>
+              <h2 className="max-w-3xl mx-auto mt-6 text-3xl font-bold text-fontLighter lg:text-4xl">
+                {content.footer.texts.titulo}
+              </h2>
+            </MotionDivDownToUp>
 
-          <p className="max-w-2xl mx-auto mt-4 text-lg text-gray-200">
-            {content.footer.texts.subtitulo}
-          </p>
+            <MotionDivDownToUp>
+              <p className="max-w-2xl mx-auto mt-4 text-lg text-fontLighter">
+                {content.footer.texts.subtitulo}
+              </p>
+            </MotionDivDownToUp>
 
-          <div className="mt-10">
-            <a
-              href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️⚖️"
-              className="inline-flex items-center justify-center px-8 py-3 text-lg font-semibold transition-all rounded-lg shadow-md hover:scale-105 bg-lighter text-slate-900 "
-            >
-              {content.footer.texts.labelBotaoPrincial}
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 0 20 20"
-                fill="currentColor"
-                className="w-5 h-5 ml-2"
-              >
-                <path
-                  fillRule="evenodd"
-                  d="M3 10a.75.75 0 01.75-.75h10.638L10.23 5.29a.75.75 0 111.04-1.08l5.5 5.25a.75.75 0 010 1.08l-5.5 5.25a.75.75 0 11-1.04-1.08l4.158-3.96H3.75A.75.75 0 013 10z"
-                  clipRule="evenodd"
-                />
-              </svg>
-            </a>
+            <MotionDivDownToUp>
+              <div className="mt-10">
+                <a
+                  target="_blank"
+                  href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️⚖️"
+                  className="inline-flex items-center justify-center px-8 py-3 text-lg font-semibold transition-all rounded-lg shadow-md hover:scale-105 bg-lighter text-fontDarker gap-2"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width={24}
+                    height={24}
+                    fill="currentColor"
+                    viewBox="0 0 24 24"
+                  >
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.472-.148-.67.15-.197.297-.768.966-.94 1.164-.173.198-.347.223-.644.074-.297-.149-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.372-.025-.521-.075-.149-.669-1.611-.916-2.207-.242-.579-.487-.5-.67-.51-.173-.007-.372-.009-.571-.009-.198 0-.52.074-.793.372-.273.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.095 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.226 1.36.194 1.872.118.571-.085 1.758-.718 2.006-1.412.248-.694.248-1.288.173-1.412-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.896a9.825 9.825 0 012.893 6.994c-.002 5.45-4.436 9.884-9.884 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.158 11.892c0 2.096.547 4.142 1.588 5.94L0 24l6.305-1.654a11.882 11.882 0 005.732 1.463h.005c6.554 0 11.89-5.335 11.892-11.892a11.821 11.821 0 00-3.466-8.413" />
+                  </svg>
+                  {content.footer.texts.labelBotaoPrincial}
+                </a>
+              </div>
+            </MotionDivDownToUp>
+
+            <MotionDivDownToUp>
+              <div className="max-w-xs mx-auto mt-16 border-t border-white/10"></div>
+            </MotionDivDownToUp>
+
+            <MotionDivDownToUp>
+              <p className="mt-6 text-sm text-fontLighter/50">
+                {content.footer.pontos.ponto1} • {content.footer.pontos.ponto2}{" "}
+                • {content.footer.pontos.ponto3}
+              </p>
+            </MotionDivDownToUp>
+
+            <p className="mt-12 text-sm text-fontLighter/50">
+              {content.footer.texts.direitosReservados} -{" "}
+              {content.footer.texts.desenvolvidoPor}
+            </p>
           </div>
-
-          <div className="max-w-xs mx-auto mt-16 border-t border-white/10"></div>
-
-          <p className="mt-6 text-sm text-gray-400">
-            {content.footer.pontos.ponto1} • {content.footer.pontos.ponto2} •{" "}
-            {content.footer.pontos.ponto3}
-          </p>
-          <p className="mt-12 text-sm text-gray-400">
-            {content.footer.texts.direitosReservados} -{" "}
-            {content.footer.texts.desenvolvidoPor}
-          </p>
-        </div>
+        </SectionArea>
       </div>
     </>
   );

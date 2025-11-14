@@ -12,6 +12,11 @@ const content = {
   },
 
   hero: {
+    imagens: {
+      backgroundHero:
+        "https://www.shutterstock.com/image-illustration/legal-concept-themis-goddess-justice-600nw-2467887949.jpg",
+      logo: "https://pachecoepeixotoadvogados.com.br/assets/logo-DX5AC2R1.png",
+    },
     texts: {
       etiqueta: "Advogado em Santo André – SP",
       titulo: "Precisando de ajuda com seus direitos violados?",
@@ -133,6 +138,10 @@ const content = {
   },
 
   about: {
+    imagem: {
+      imgPessoa:
+        "https://pachecoepeixotoadvogados.com.br/assets/aboutImg-DwgPvXtM.webp",
+    },
     texts: {
       titulo: "Por que confiam em mim",
       labelBotaoPrincial: "Fale comigo agora mesmo",
@@ -148,6 +157,10 @@ const content = {
   },
 
   footer: {
+    imagem: {
+      baclground:
+        "https://www.shutterstock.com/image-illustration/legal-concept-themis-goddess-justice-600nw-2467887949.jpg",
+    },
     texts: {
       etiqueta: "Pronto para começar?",
       titulo: "Fale comigo agora e evite que seu problema piore",
