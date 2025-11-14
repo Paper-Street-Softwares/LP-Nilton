@@ -1,0 +1,34 @@
+import React from "react";
+
+function CardTransformacao({ data, styles }) {
+  const { etiqueta, pontos } = data;
+
+  const { cardClasses, etiquetaClasses, bulletClasses, textoClasses } = styles;
+
+  return (
+    <div className={`p-8  rounded-2xl ${cardClasses}`}>
+      <div className="flex justify-center md:justify-start">
+        <span
+          className={`inline-block px-4 py-1 mb-6 text-sm font-semibold rounded-full ${etiquetaClasses}`}
+        >
+          {etiqueta}
+        </span>
+      </div>
+      <ul className="space-y-4">
+        {pontos
+          .filter((ponto) => ponto.index !== 0)
+          .map((ponto) => (
+            <li key={ponto.index} className="flex items-center">
+              <span
+                className={`flex-shrink-0 h-2.5 w-2.5 rounded-full mr-3 ${bulletClasses}`}
+              ></span>
+
+              <span className={textoClasses}>{ponto.texto}</span>
+            </li>
+          ))}
+      </ul>
+    </div>
+  );
+}
+
+export default CardTransformacao;
