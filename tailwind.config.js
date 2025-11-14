@@ -6,8 +6,8 @@ export const theme = {
       lighter: "#D7B283",
       darker: "#132745",
 
-      fontLighter: "ffffff",
-      fontDarker: "000000",
+      fontLighter: "#ffffff",
+      fontDarker: "#000000",
     },
     fontFamily: {
       mainFont: ["Merriweather", "sans-serif"],
