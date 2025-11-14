@@ -1,4 +1,4 @@
-import MotionDivDownToUp from "../components/animations/MotionDivDownToUp";
+import MotionDivDownToUp from "../components/animations/MotionDivDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 import CardFeatures from "../components/cards/CardFeatures";
 import SectionArea from "../components/sectionElements/SectionArea";

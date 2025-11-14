@@ -1,5 +1,5 @@
 import React from "react";
-import MotionDivDownToUp from "../animations/MotionDivDownToUp";
+import MotionDivDownToUp from "../animations/MotionDivDownToUp.jsx";
 
 function CardFeatures({ icone: Icone, titulo, descricao }) {
   return (
