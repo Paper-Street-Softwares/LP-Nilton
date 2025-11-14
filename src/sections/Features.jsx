@@ -28,10 +28,11 @@ export default function Features() {
             <MotionDivDownToUp>
               <div className="mt-16 text-center">
                 <a
+                  target="_blank"
                   href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️⚖️"
                   className="inline-flex px-8 py-3 text-lg font-semibold text-fontLighter transition-all rounded-lg shadow-md hover:scale-105 bg-darker gap-2"
                 >
-                  <svg
+                  <svg  
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
                     height={24}

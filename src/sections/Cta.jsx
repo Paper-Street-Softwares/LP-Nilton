@@ -62,6 +62,7 @@ export default function Cta() {
               <MotionDivDownToUp>
                 <div className="mt-10">
                   <a
+                    target="_blank"
                     href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️⚖️"
                     className="inline-flex px-8 py-3 text-lg font-semibold text-fontDarker transition-all rounded-lg shadow-md hover:scale-105 bg-lighter gap-2"
                   >

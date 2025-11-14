@@ -8,7 +8,7 @@ export default function Hero() {
       <div class="relative bg-black overflow-hidden">
         <div class="absolute inset-0 z-0">
           <img
-            src="https://www.shutterstock.com/image-illustration/legal-concept-themis-goddess-justice-600nw-2467887949.jpg"
+            src={content.hero.imagens.backgroundHero}
             alt="Imagem ilustrativa"
             class="w-full h-full object-cover"
           />
@@ -19,7 +19,7 @@ export default function Hero() {
           <MotionDivDownToUp>
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
               <img
-                src="https://pachecoepeixotoadvogados.com.br/assets/logo-DX5AC2R1.png"
+                src={content.hero.imagens.logo}
                 alt="Imagem ilustrativa"
                 className="w-full max-w-[350px] mb-6"
               />
@@ -45,6 +45,7 @@ export default function Hero() {
           <div class="mt-10 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
             <MotionDivDownToUp>
               <a
+                target="_blank"
                 href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️"
                 class="inline-flex items-center justify-center bg-lighter text-fontDarker font-semibold px-6 py-3 rounded-lg text-lg transition-all hover:scale-105 shadow-lg gap-2"
               >
@@ -62,6 +63,7 @@ export default function Hero() {
             </MotionDivDownToUp>
             <MotionDivDownToUp>
               <a
+                target="_blank"
                 href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️"
                 class="inline-flex items-center justify-center bg-darker text-fontLighter font-semibold px-6 py-3 rounded-lg text-lg transition-all hover:scale-105 shadow-lg"
               >

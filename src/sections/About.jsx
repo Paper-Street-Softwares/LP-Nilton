@@ -19,7 +19,7 @@ export default function About() {
                 <MotionDivDownToUp>
                   <div className="flex md:justify-center md:items-center">
                     <img
-                      src="https://pachecoepeixotoadvogados.com.br/assets/aboutImg-DwgPvXtM.webp"
+                      src={content.about.imagem.imgPessoa}
                       alt="Imagem ilustrativa"
                       className="w-full max-w-[800px] rounded-lg lg:max-w-[500px]"
                     />
@@ -61,6 +61,7 @@ export default function About() {
                   <MotionDivDownToUp>
                     <div className="mt-12 ">
                       <a
+                        target="_blank"
                         href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️⚖️"
                         className="inline-flex px-8 py-3 text-lg font-semibold text-center text-fontLighter transition-all rounded-lg shadow-md hover:scale-105 bg-darker gap-2"
                       >

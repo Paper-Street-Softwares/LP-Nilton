@@ -8,7 +8,7 @@ export default function Footer() {
       <div className="relative">
         <div class="absolute inset-0 z-0">
           <img
-            src="https://www.shutterstock.com/image-illustration/legal-concept-themis-goddess-justice-600nw-2467887949.jpg"
+            src={content.footer.imagem.baclground}
             alt="Imagem ilustrativa"
             class="w-full h-full object-cover"
           />
