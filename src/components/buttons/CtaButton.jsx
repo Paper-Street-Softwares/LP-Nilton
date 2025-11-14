@@ -1,4 +1,4 @@
-import MotionDivDownToUp from "../animations/MotionDivDownToUp";
+import MotionDivDownToUp from "../animations/MotionDownToUp";
 
 export default function CtaButton({ link, icon, label, colorMode }) {
   const themes = {
