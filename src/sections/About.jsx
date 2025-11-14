@@ -1,4 +1,4 @@
-import MotionDivDownToUp from "../components/Animations/MotionDivDownToUp";
+import MotionDivDownToUp from "../components/animations/MotionDivDownToUp";
 import SectionArea from "../components/sectionElements/SectionArea";
 import content from "../content/Content";
 
@@ -63,7 +63,7 @@ export default function About() {
                       <a
                         target="_blank"
                         href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️⚖️"
-                        className="inline-flex px-8 py-3 text-lg font-semibold text-center text-fontLighter transition-all rounded-lg shadow-md hover:scale-105 bg-darker gap-2"
+                        className="inline-flex gap-2 px-8 py-3 text-lg font-semibold text-center transition-all rounded-lg shadow-md text-fontLighter hover:scale-105 bg-darker"
                       >
                         <svg
                           xmlns="http://www.w3.org/2000/svg"

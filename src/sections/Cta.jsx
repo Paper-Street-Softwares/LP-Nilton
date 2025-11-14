@@ -1,4 +1,4 @@
-import MotionDivDownToUp from "../components/Animations/MotionDivDownToUp";
+import MotionDivDownToUp from "../components/animations/MotionDivDownToUp";
 import SectionArea from "../components/sectionElements/SectionArea";
 import content from "../content/Content";
 
@@ -18,7 +18,7 @@ export default function Cta() {
         <SectionArea>
           <div className="relative z-10 px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
             <MotionDivDownToUp>
-              <span className="inline-block px-4 py-1 text-xs font-semibold tracking-wider text-fontLighter uppercase rounded-full bg-darker">
+              <span className="inline-block px-4 py-1 text-xs font-semibold tracking-wider uppercase rounded-full text-fontLighter bg-darker">
                 {content.cta.texts.etiqueta}
               </span>
             </MotionDivDownToUp>
@@ -64,7 +64,7 @@ export default function Cta() {
                   <a
                     target="_blank"
                     href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️⚖️"
-                    className="inline-flex px-8 py-3 text-lg font-semibold text-fontDarker transition-all rounded-lg shadow-md hover:scale-105 bg-lighter gap-2"
+                    className="inline-flex gap-2 px-8 py-3 text-lg font-semibold transition-all rounded-lg shadow-md text-fontDarker hover:scale-105 bg-lighter"
                   >
                     <svg
                       xmlns="http://www.w3.org/2000/svg"

@@ -1,6 +1,5 @@
 import content from "../content/Content";
-import MotionDivDownToUp from "../components/Animations/MotionDivDownToUp";
-import SectionArea from "../components/sectionElements/SectionArea";
+import MotionDivDownToUp from "../components/animations/MotionDivDownToUp";
 
 export default function Hero() {
   return (

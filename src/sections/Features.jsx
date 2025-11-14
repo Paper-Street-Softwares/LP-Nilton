@@ -1,5 +1,5 @@
-import MotionDivDownToUp from "../components/Animations/MotionDivDownToUp";
-import CardFeatures from "../components/CardFeatures";
+import MotionDivDownToUp from "../components/animations/MotionDivDownToUp";
+import CardFeatures from "../components/cards/CardFeatures";
 import SectionArea from "../components/sectionElements/SectionArea";
 import content from "../content/Content";
 
@@ -15,24 +15,22 @@ export default function Features() {
               </h2>
             </MotionDivDownToUp>
 
-            <MotionDivDownToUp>
-              <div className="flex flex-col gap-10 md:flex-row md:flex-wrap md:justify-center">
-                {content.features.cards
-                  .filter((card) => card.index !== 0)
-                  .map((card) => (
-                    <CardFeatures key={card.index} {...card} />
-                  ))}
-              </div>
-            </MotionDivDownToUp>
+            <div className="flex flex-col gap-10 md:flex-row md:flex-wrap md:justify-center">
+              {content.features.cards
+                .filter((card) => card.index !== 0)
+                .map((card) => (
+                  <CardFeatures key={card.index} {...card} />
+                ))}
+            </div>
 
             <MotionDivDownToUp>
               <div className="mt-16 text-center">
                 <a
                   target="_blank"
                   href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️⚖️"
-                  className="inline-flex px-8 py-3 text-lg font-semibold text-fontLighter transition-all rounded-lg shadow-md hover:scale-105 bg-darker gap-2"
+                  className="inline-flex gap-2 px-8 py-3 text-lg font-semibold transition-all rounded-lg shadow-md text-fontLighter hover:scale-105 bg-darker"
                 >
-                  <svg  
+                  <svg
                     xmlns="http://www.w3.org/2000/svg"
                     width={24}
                     height={24}

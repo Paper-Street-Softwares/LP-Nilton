@@ -1,5 +1,5 @@
-import MotionDivDownToUp from "../components/Animations/MotionDivDownToUp";
-import CardTransformacao from "../components/CardTransformacao";
+import MotionDivDownToUp from "../components/animations/MotionDivDownToUp";
+import CardTransformacao from "../components/cards/CardTransformacao";
 import SectionArea from "../components/sectionElements/SectionArea";
 import content from "../content/Content";
 
@@ -17,53 +17,49 @@ export default function Transformacao() {
               </div>
             </MotionDivDownToUp>
 
-            <MotionDivDownToUp>
-              {(() => {
-                const cardsConfig = [
-                  {
-                    key: "antes",
-                    data: content.transformacao.antes,
-                    styles: {
-                      cardClasses:
-                        "bg-neutral-50/90 shadow-lg hover:shadow-xl transition-all duration-300",
-                      etiquetaClasses: "text-red-700 bg-red-100",
-                      bulletClasses: "bg-red-500",
-                      textoClasses: "text-lg text-gray-700",
-                    },
+            {(() => {
+              const cardsConfig = [
+                {
+                  key: "antes",
+                  data: content.transformacao.antes,
+                  styles: {
+                    cardClasses: "bg-neutral-50/90 shadow-lg hover:shadow-xl",
+                    etiquetaClasses: "text-red-700 bg-red-100",
+                    bulletClasses: "bg-red-500",
+                    textoClasses: "text-lg text-gray-700",
                   },
-                  {
-                    key: "depois",
-                    data: content.transformacao.depois,
-                    styles: {
-                      cardClasses:
-                        "bg-neutral-50/90 shadow-lg hover:shadow-xl transition-all duration-300",
-                      etiquetaClasses: "text-green-700 bg-green-100",
-                      bulletClasses: "bg-green-800",
-                      textoClasses: "text-lg font-medium text-gray-900",
-                    },
+                },
+                {
+                  key: "depois",
+                  data: content.transformacao.depois,
+                  styles: {
+                    cardClasses: "bg-neutral-50/90 shadow-lg hover:shadow-xl",
+                    etiquetaClasses: "text-green-700 bg-green-100",
+                    bulletClasses: "bg-green-800",
+                    textoClasses: "text-lg font-medium text-gray-900",
                   },
-                ];
+                },
+              ];
 
-                return (
-                  <div className="grid max-w-5xl grid-cols-1 gap-8 mx-auto md:grid-cols-2">
-                    {cardsConfig.map((config) => (
-                      <CardTransformacao
-                        key={config.key}
-                        data={config.data}
-                        styles={config.styles}
-                      />
-                    ))}
-                  </div>
-                );
-              })()}
-            </MotionDivDownToUp>
+              return (
+                <div className="grid max-w-5xl grid-cols-1 gap-8 mx-auto md:grid-cols-2">
+                  {cardsConfig.map((config) => (
+                    <CardTransformacao
+                      key={config.key}
+                      data={config.data}
+                      styles={config.styles}
+                    />
+                  ))}
+                </div>
+              );
+            })()}
 
             <MotionDivDownToUp>
               <div className="mt-16 text-center">
                 <a
                   target="_blank"
                   href="https://wa.me/+5511990260977?text=Ol%C3%A1!%20Vim%20do%20Google%20e%20gostaria%20de%20saber%20mais.%20Pode%20me%20ajudar? ⚖️⚖️"
-                  className="inline-flex px-8 py-3 text-lg font-semibold text-fontLighter transition-all rounded-lg shadow-md hover:scale-105 bg-darker gap-2"
+                  className="inline-flex gap-2 px-8 py-3 text-lg font-semibold transition-all rounded-lg shadow-md text-fontLighter hover:scale-105 bg-darker"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
