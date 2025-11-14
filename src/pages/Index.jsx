@@ -9,10 +9,12 @@ export default function Index() {
   return (
     <>
       <Hero />
-      <Features />
-      <Transformacao />
-      <Cta />
-      <About />
+      <main>
+        <Features />
+        <Transformacao />
+        <Cta />
+        <About />
+      </main>
       <Footer />
     </>
   );
