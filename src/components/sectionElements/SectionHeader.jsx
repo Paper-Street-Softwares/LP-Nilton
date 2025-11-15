@@ -1,6 +1,6 @@
 import MotionDivDownToUp from "../animations/MotionDownToUp";
 
-export default function SectionHeader({ colorMode, title }) {
+export default function SectionHeader({ colorMode, title, marginBottom }) {
   const themes = {
     light: "text-fontLighter",
     dark: "text-fontDarker",
@@ -16,7 +16,9 @@ export default function SectionHeader({ colorMode, title }) {
         >
           {title}
         </h2>
-        <div className="w-full h-px max-w-6xl mx-auto mt-6 mb-14 bg-custom-divider-lighter"></div>
+        <div
+          className={`w-full h-px max-w-6xl mx-auto mt-6 mb-14 ${marginBottom} bg-custom-divider-lighter`}
+        ></div>
       </MotionDivDownToUp>
     </>
   );

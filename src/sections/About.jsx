@@ -10,7 +10,10 @@ export default function About() {
       <div className="bg-neutral-100">
         <SectionArea>
           <div className="flex flex-col items-center mx-auto max-w-7xl">
-            <SectionHeader title={content.about.texts.titulo} />
+            <SectionHeader
+              title={content.about.texts.titulo}
+              marginBottom="mb-0"
+            />
 
             <MotionDivDownToUp>
               <div className="flex flex-col max-w-6xl gap-8 p-8 mx-auto bg-white border border-gray-100 shadow-2xl md:gap-16 rounded-2xl sm:p-12 lg:flex-row">
@@ -47,7 +50,7 @@ export default function About() {
                                 </svg>
                               </div>
 
-                              <span className="ml-3 text-lg text-gray-700">
+                              <span className="ml-3 text-gray-700 text-md">
                                 {ponto.texto}
                               </span>
                             </li>

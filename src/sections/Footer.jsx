@@ -38,7 +38,7 @@ export default function Footer() {
             </MotionDivDownToUp>
 
             <MotionDivDownToUp>
-              <h2 className="max-w-3xl mx-auto mt-6 text-3xl font-bold text-fontLighter lg:text-4xl">
+              <h2 className="max-w-3xl mx-auto mt-6 text-3xl text-fontLighter font-mainFont lg:text-4xl">
                 {content.footer.texts.titulo}
               </h2>
             </MotionDivDownToUp>

@@ -86,10 +86,6 @@ const content = {
           texto:
             "Você perde tempo com atendimentos que não te escutam de verdade",
         },
-        {
-          index: 4,
-          texto: "A ansiedade aumenta enquanto o problema só piora com o tempo",
-        },
       ],
     },
 
@@ -110,10 +106,6 @@ const content = {
           texto:
             "Você deixa de enfrentar tudo sozinho e ganha clareza no caminho",
         },
-        {
-          index: 4,
-          texto: "Seu problema avança com estratégia feita para sua realidade",
-        },
       ],
     },
   },
@@ -132,7 +124,6 @@ const content = {
       { index: 1, texto: "Contato direto comigo" },
       { index: 2, texto: "Explico cada passo sem complicação" },
       { index: 3, texto: "Atualizações constantes do processo" },
-      { index: 4, texto: "Estratégia definida para sua situação" },
     ],
   },
 
@@ -146,12 +137,54 @@ const content = {
       labelBotaoPrincial: "Fale comigo agora mesmo",
     },
     pontos: [
-      { index: 1, texto: "Contato direto comigo" },
-      { index: 2, texto: "Atualizações frequentes do processo" },
-      { index: 3, texto: "Estratégia feita para seu caso" },
-      { index: 4, texto: "Explicação clara de cada etapa" },
-      { index: 5, texto: "Atendimento humanizado e rápido" },
-      { index: 6, texto: "Acompanhamento próximo do início ao fim" },
+      {
+        index: 1,
+        texto: (
+          <p>
+            Contato direto <strong>comigo</strong>
+          </p>
+        ),
+      },
+      {
+        index: 2,
+        texto: (
+          <p>
+            Contato direto <strong>comigo</strong>
+          </p>
+        ),
+      },
+      {
+        index: 3,
+        texto: (
+          <p>
+            Contato direto <strong>comigo</strong>
+          </p>
+        ),
+      },
+      {
+        index: 4,
+        texto: (
+          <p>
+            Contato direto <strong>comigo</strong>
+          </p>
+        ),
+      },
+      {
+        index: 5,
+        texto: (
+          <p>
+            Contato direto <strong>comigo</strong>
+          </p>
+        ),
+      },
+      {
+        index: 6,
+        texto: (
+          <p>
+            Contato direto <strong>comigo</strong>
+          </p>
+        ),
+      },
     ],
   },
 
@@ -162,7 +195,11 @@ const content = {
     },
     texts: {
       etiqueta: "Pronto para começar?",
-      titulo: "Fale comigo agora e evite que seu problema piore",
+      titulo: (
+        <h2>
+          Este é um CTA, e essa é a palavra em <strong>Foco</strong>!
+        </h2>
+      ),
       labelBotaoPrincial: "Seja atendido por mim agora",
       direitosReservados:
         "2025 • Nilton Correia • Todos os direitos reservados • Políticas de privacidade",
