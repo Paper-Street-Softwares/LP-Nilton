@@ -13,7 +13,6 @@ export const theme = {
     colors: {
       lighter: "#d3b354",
       darker: "#151515",
-
       fontLighter: "#ffffff",
       fontDarker: "#000000",
     },
@@ -35,11 +34,26 @@ export const theme = {
       title6: "3rem",
       title7: "3.5rem",
     },
+    animation: {
+      "shine-loop": "shine-loop 5s ease-in-out infinite",
+    },
+    keyframes: {
+      "shine-loop": {
+        "0%": {
+          transform: "translateX(-100%) skewX(-20deg)",
+        },
+        "20%": {
+          transform: "translateX(200%) skewX(-20deg)",
+        },
+        "100%": {
+          transform: "translateX(200%) skewX(-20deg)",
+        },
+      },
+    },
 
     backgroundImage: (theme) => {
       const lighterHex = theme("colors.lighter");
       const lighterRgb = hexToRgb(lighterHex);
-
       const darkerHex = theme("colors.darker");
       const darkerRgb = hexToRgb(darkerHex);
 
