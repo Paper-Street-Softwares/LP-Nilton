@@ -3,15 +3,15 @@ export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
   extend: {
     colors: {
-      lighter: "#D7B283",
-      darker: "#132745",
+      lighter: "#d3b354",
+      darker: "#151515",
 
       fontLighter: "#ffffff",
       fontDarker: "#000000",
     },
     fontFamily: {
-      mainFont: ["Merriweather", "sans-serif"],
-      secondFont: ["Merriweather", "sans-serif"],
+      mainFont: ["EB Garamond", "serif"],
+      secondFont: ["Roboto", "sans-serif"],
     },
     fontSize: {
       paragraph1: "0.625rem",

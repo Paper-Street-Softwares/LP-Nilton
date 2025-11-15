@@ -8,7 +8,7 @@ import Transformacao from "../sections/Transformacao";
 export default function Index() {
   return (
     <>
-      <Hero />
+      <Hero imagemFocadaBackground={false} />
       <main>
         <Features />
         <Transformacao />

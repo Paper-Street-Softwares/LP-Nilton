@@ -7,8 +7,8 @@ export const theme = {
       darker: "#132745",
     },
     fontFamily: {
-      mainFont: ["Merriweather", "sans-serif"],
-      secondFont: ["Merriweather", "sans-serif"],
+      mainFont: ["EB Garamond", "serif"],
+      secondFont: ["Roboto", "sans-serif"],
     },
     fontSize: {
       paragraph1: "0.625rem",
@@ -22,8 +22,7 @@ export const theme = {
       title4: "1.875rem",
       title5: "2.25rem",
       title6: "3rem",
-      title7: "3.5rem", // 55px
+      title7: "3.5rem",
     },
   },
 };
-// export const plugins = [require("tailwindcss-gradients")];

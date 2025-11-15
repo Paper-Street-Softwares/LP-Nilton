@@ -2,7 +2,7 @@ import content from "../content/Content";
 import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 
-export default function Hero() {
+export default function Hero({ imagemFocadaBackground }) {
   return (
     <>
       <div class="relative bg-black overflow-hidden">
@@ -12,7 +12,7 @@ export default function Hero() {
             alt="Imagem ilustrativa"
             class="w-full h-full object-cover"
           />
-          <div class="absolute inset-0 bg-black/95 lg:bg-black/85"></div>
+          <div class="absolute inset-0 bg-black/90 lg:bg-black/85"></div>
         </div>
 
         <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 sm:pt-16 lg:pt-36 lg:pb-28 text-center text-fontLighter">
@@ -25,26 +25,28 @@ export default function Hero() {
               />
             </div>
           </MotionDivDownToUp>
-          <MotionDivDownToUp className="flex justify-center w-full mb-8 lg:hidden">
-            <div
-              style={{
-                backgroundImage: `url(${content.hero.imagens.focadaHero})`,
-              }}
-              className="bg-center bg-no-repeat bg-cover h-[320px] w-[450px] md:h-[600px] md:w-[600px] rounded-xl"
-            />
-          </MotionDivDownToUp>
+          {imagemFocadaBackground && (
+            <MotionDivDownToUp className="flex justify-center w-full mb-8 lg:hidden">
+              <div
+                style={{
+                  backgroundImage: `url(${content.hero.imagens.focadaHero})`,
+                }}
+                className="bg-center bg-no-repeat bg-cover h-[320px] w-[450px] md:h-[600px] md:w-[600px] rounded-xl"
+              />
+            </MotionDivDownToUp>
+          )}
           <MotionDivDownToUp>
-            <span className="inline-flex mb-6 items-center rounded-full bg-black/60 px-4 py-1.5 text-sm font-medium text-fontLighter/80 ring-1 ring-inset ring-neutral-400">
+            <span className="inline-flex mb-6 items-center rounded-full font-secondFont bg-black/60 px-4 py-1.5 text-sm font-medium text-fontLighter/80 ring-1 ring-inset ring-neutral-400">
               {content.hero.texts.etiqueta}
             </span>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl tracking-tight font-extrabold font-mainFont">
               {content.hero.texts.titulo}
             </h1>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <p class="mt-6 max-w-3xl mx-auto text-lg sm:text-xl text-fontLighter/90">
+            <p class="mt-6 max-w-3xl mx-auto text-lg sm:text-xl text-fontLighter/85 font-secondFont">
               {content.hero.texts.subtitulo}
             </p>
           </MotionDivDownToUp>
@@ -57,6 +59,7 @@ export default function Hero() {
               colorMode="light"
             />
             <CtaButton
+              icon={content.util.svgCalendario}
               link={content.util.ctaWhatsapp}
               label={content.hero.texts.labelBotaoSecundario}
               colorMode="dark"
