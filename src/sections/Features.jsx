@@ -10,12 +10,12 @@ export default function Features() {
     <>
       <div className="bg-neutral-100">
         <SectionArea>
-          <div className="flex flex-col items-center px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col items-center px-8 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <MotionDivDownToUp>
               <SectionHeader title={content.features.texts.titulo} />
             </MotionDivDownToUp>
 
-            <div className="flex flex-col gap-10 mb-16 md:flex-row md:flex-wrap md:justify-center">
+            <div className="flex flex-col items-center gap-10 mb-16 md:flex-row md:flex-wrap md:justify-center">
               {content.features.cards
                 .filter((card) => card.index !== 0)
                 .map((card) => (

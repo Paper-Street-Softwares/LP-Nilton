@@ -6,7 +6,7 @@ export default function SectionHeader({ colorMode, title }) {
     dark: "text-fontDarker",
   };
 
-  const colors = themes[colorMode] || themes.darkr;
+  const colors = themes[colorMode] || themes.dark;
 
   return (
     <>
