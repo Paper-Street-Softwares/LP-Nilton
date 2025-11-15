@@ -56,13 +56,6 @@ const content = {
         descricao:
           "Acompanho seu conflito familiar para proteger seus filhos e reduzir o desgaste.",
       },
-      {
-        index: 4,
-        icone: Clock,
-        titulo: "Problemas de consumo",
-        descricao:
-          "Ajo quando você sofre prejuízo, cobrança indevida ou negativa injusta.",
-      },
     ],
   },
 

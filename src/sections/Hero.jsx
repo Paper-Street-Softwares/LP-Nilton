@@ -36,12 +36,12 @@ export default function Hero({ imagemFocadaBackground }) {
             </MotionDivDownToUp>
           )}
           <MotionDivDownToUp>
-            <span className="inline-flex mb-6 items-center rounded-full font-secondFont bg-black/60 px-4 py-1.5 text-sm font-medium text-fontLighter/80 ring-1 ring-inset ring-neutral-400">
+            <span className="inline-flex mb-6 items-center capitalize rounded-full font-secondFont bg-black/60 px-4 py-1.5 text-sm font-medium text-fontLighter/80 ring-1 ring-inset ring-neutral-400">
               {content.hero.texts.etiqueta}
             </span>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl tracking-tight font-extrabold font-mainFont">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl tracking-tight font-extrabold font-mainFont capitalize">
               {content.hero.texts.titulo}
             </h1>
           </MotionDivDownToUp>
