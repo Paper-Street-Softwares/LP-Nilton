@@ -1,3 +1,11 @@
+function hexToRgb(hex) {
+  const hexValue = hex.replace("#", "");
+  const r = parseInt(hexValue.substring(0, 2), 16);
+  const g = parseInt(hexValue.substring(2, 4), 16);
+  const b = parseInt(hexValue.substring(4, 6), 16);
+  return `${r}, ${g}, ${b}`;
+}
+
 /** @type {import('tailwindcss').Config} */
 export const content = ["./src/**/*.{js,jsx,ts,tsx}"];
 export const theme = {
@@ -25,8 +33,20 @@ export const theme = {
       title4: "1.875rem",
       title5: "2.25rem",
       title6: "3rem",
-      title7: "3.5rem", // 55px
+      title7: "3.5rem",
+    },
+
+    backgroundImage: (theme) => {
+      const lighterHex = theme("colors.lighter");
+      const lighterRgb = hexToRgb(lighterHex);
+
+      const darkerHex = theme("colors.darker");
+      const darkerRgb = hexToRgb(darkerHex);
+
+      return {
+        "custom-divider-lighter": `linear-gradient(90deg, rgba(${lighterRgb}, 0) 1.46%, rgba(${lighterRgb}, 0.6) 40.83%, rgba(${lighterRgb}, 0.3) 65.57%, rgba(${lighterRgb}, 0) 107.92%)`,
+        "custom-divider-darker": `linear-gradient(90deg, rgba(${darkerRgb}, 0) 1.46%, rgba(${darkerRgb}, 0.6) 40.83%, rgba(${darkerRgb}, 0.3) 65.57%, rgba(${darkerRgb}, 0) 107.92%)`,
+      };
     },
   },
 };
-// export const plugins = [require("tailwindcss-gradients")];

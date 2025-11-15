@@ -12,10 +12,11 @@ export default function SectionHeader({ colorMode, title }) {
     <>
       <MotionDivDownToUp>
         <h2
-          className={`${colors} font-mainFont mb-16 text-3xl font-bold tracking-tight text-center lg:text-4xl capitalize`}
+          className={`${colors} font-mainFont text-3xl font-bold tracking-tight text-center lg:text-4xl capitalize`}
         >
           {title}
         </h2>
+        <div className="w-full h-px max-w-6xl mx-auto mt-6 mb-14 bg-custom-divider-lighter"></div>
       </MotionDivDownToUp>
     </>
   );

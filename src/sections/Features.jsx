@@ -8,7 +8,7 @@ import content from "../content/Content";
 export default function Features() {
   return (
     <>
-      <div className="bg-gray-100">
+      <div className="bg-neutral-100">
         <SectionArea>
           <div className="flex flex-col items-center px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
             <MotionDivDownToUp>

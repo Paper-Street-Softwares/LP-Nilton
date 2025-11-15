@@ -8,11 +8,11 @@ function CardFeatures({ icone: Icone, titulo, descricao }) {
         {Icone && <Icone size={24} strokeWidth={1.5} />}
       </div>
 
-      <h3 className="mb-2 text-xl font-extrabold text-center text-gray-900 capitalize font-mainFont">
+      <h3 className="mb-2 text-xl font-extrabold text-center text-gray-900 capitalize font-secondFont">
         {titulo}
       </h3>
 
-      <p className="text-center text-fontDarker/70 font-secondFont">
+      <p className="leading-5 text-center text-fontDarker/70 font-secondFont">
         {descricao}
       </p>
     </MotionDivDownToUp>
