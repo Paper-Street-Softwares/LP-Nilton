@@ -30,7 +30,7 @@ export default function SectionArea({
   return (
     <div
       id={id}
-      className={`w-full flex flex-col items-center ${paddingTopp} ${paddingBottom} ${paddingTopAndBottom} ${className}`}
+      className={`w-full flex flex-col items-center px-8 sm:px-6 lg:px-8 ${paddingTopp} ${paddingBottom} ${paddingTopAndBottom} ${className}`}
     >
       {childrenArray}
     </div>

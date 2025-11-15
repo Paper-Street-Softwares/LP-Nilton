@@ -10,7 +10,7 @@ export default function Features() {
     <>
       <div className="bg-neutral-100">
         <SectionArea>
-          <div className="flex flex-col items-center px-8 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col items-center mx-auto max-w-7xl ">
             <MotionDivDownToUp>
               <SectionHeader title={content.features.texts.titulo} />
             </MotionDivDownToUp>
