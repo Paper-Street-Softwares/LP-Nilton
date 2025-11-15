@@ -2,6 +2,7 @@ import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 import CardTransformacao from "../components/cards/CardTransformacao";
 import SectionArea from "../components/sectionElements/SectionArea";
+import SectionHeader from "../components/sectionElements/SectionHeader.jsx";
 import content from "../content/Content";
 
 export default function Transformacao() {
@@ -10,13 +11,7 @@ export default function Transformacao() {
       <div className="bg-white">
         <SectionArea>
           <div className="flex flex-col items-center mx-auto max-w-7xl">
-            <MotionDivDownToUp>
-              <div className="max-w-3xl mx-auto mb-16 text-center">
-                <h2 className="text-3xl font-bold tracking-tight text-fontDarker lg:text-4xl">
-                  {content.transformacao.texts.titulo}
-                </h2>
-              </div>
-            </MotionDivDownToUp>
+            <SectionHeader title={content.transformacao.texts.titulo} />
 
             {(() => {
               const cardsConfig = [

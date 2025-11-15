@@ -1,6 +1,7 @@
 import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 import SectionArea from "../components/sectionElements/SectionArea";
+import SectionHeader from "../components/sectionElements/SectionHeader.jsx";
 import content from "../content/Content";
 
 export default function About() {
@@ -9,11 +10,7 @@ export default function About() {
       <div className="bg-gray-50">
         <SectionArea>
           <div className="mx-auto max-w-7xl ">
-            <MotionDivDownToUp>
-              <h2 className="mb-10 text-3xl font-bold tracking-tight text-center text-fontDarker lg:text-4xl">
-                {content.about.texts.titulo}
-              </h2>
-            </MotionDivDownToUp>
+            <SectionHeader title={content.about.texts.titulo} />
 
             <MotionDivDownToUp>
               <div className="flex flex-col max-w-6xl gap-8 p-8 mx-auto bg-white border border-gray-100 shadow-2xl md:gap-16 rounded-2xl sm:p-12 lg:flex-row">
