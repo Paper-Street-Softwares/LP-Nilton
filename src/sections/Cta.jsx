@@ -1,6 +1,7 @@
 import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 import SectionArea from "../components/sectionElements/SectionArea";
+import SectionHeader from "../components/sectionElements/SectionHeader.jsx";
 import content from "../content/Content";
 
 export default function Cta() {
@@ -19,16 +20,26 @@ export default function Cta() {
         <SectionArea>
           <div className="relative z-10 mx-auto text-center max-w-7xl">
             <MotionDivDownToUp>
-              <span className="inline-block px-4 py-1 text-xs font-semibold tracking-wider uppercase rounded-full text-fontLighter bg-darker">
+              <span className="inline-flex items-center rounded-full bg-darker text-lighter font-semibold text-xs px-4 py-1.5 uppercase tracking-wider ring-1 ring-inset ring-white/10">
+                <svg
+                  className="w-4 h-4 mr-1.5"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  strokeWidth="1.5"
+                  stroke="currentColor"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                  />
+                </svg>
                 {content.cta.texts.etiqueta}
               </span>
             </MotionDivDownToUp>
 
-            <MotionDivDownToUp>
-              <h2 className="max-w-3xl mx-auto mt-6 text-3xl font-bold text-fontLighter lg:text-4xl">
-                {content.cta.texts.titulo}
-              </h2>
-            </MotionDivDownToUp>
+            <SectionHeader colorMode={light} title={content.cta.texts.titulo} />
 
             <div className="max-w-3xl mx-auto mt-10 shadow-lg rounded-2xl">
               <MotionDivDownToUp>
