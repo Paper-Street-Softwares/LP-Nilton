@@ -21,7 +21,11 @@ const content = {
     },
     texts: {
       etiqueta: "⚖️ Advogado em Santo André - SP",
-      titulo: "Precisando de Advogado Trabalhista?",
+      titulo: (
+        <p>
+          Precisando de Advogado <strong>Trabalhista?</strong>
+        </p>
+      ),
       subtitulo:
         "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa para evitar mais desgaste.",
       labelBotaoPrincial: "Fale comigo agora mesmo",

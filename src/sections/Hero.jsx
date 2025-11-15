@@ -41,7 +41,7 @@ export default function Hero({ imagemFocadaBackground }) {
             </span>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl tracking-tight font-extrabold font-mainFont capitalize">
+            <h1 class="text-4xl sm:text-5xl lg:text-6xl tracking-tight font-medium font-mainFont capitalize">
               {content.hero.texts.titulo}
             </h1>
           </MotionDivDownToUp>

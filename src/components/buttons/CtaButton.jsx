@@ -14,7 +14,7 @@ export default function CtaButton({
 
   const shineThemes = {
     light: "bg-white/20",
-    dark: "bg-white/10",
+    dark: "bg-white/5",
   };
 
   const colors = themes[colorMode] || themes.light;
