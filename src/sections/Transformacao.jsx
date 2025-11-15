@@ -20,8 +20,8 @@ export default function Transformacao() {
                   data: content.transformacao.antes,
                   styles: {
                     cardClasses: "bg-neutral-50/90 shadow-lg hover:shadow-xl",
-                    etiquetaClasses: "text-red-700 bg-red-100",
-                    bulletClasses: "bg-red-500",
+                    etiquetaClasses: "text-fontLighter bg-darker",
+                    bulletClasses: "bg-darker",
                     textoClasses: "text-lg text-gray-700",
                   },
                 },
@@ -29,10 +29,10 @@ export default function Transformacao() {
                   key: "depois",
                   data: content.transformacao.depois,
                   styles: {
-                    cardClasses: "bg-neutral-50/90 shadow-lg hover:shadow-xl",
-                    etiquetaClasses: "text-green-700 bg-green-100",
-                    bulletClasses: "bg-green-800",
-                    textoClasses: "text-lg font-medium text-gray-900",
+                    cardClasses: "bg-lighter/20 shadow-lg hover:shadow-xl",
+                    etiquetaClasses: "text-fontDarker bg-lighter",
+                    bulletClasses: "bg-lighter",
+                    textoClasses: "text-lg text-gray-900",
                   },
                 },
               ];

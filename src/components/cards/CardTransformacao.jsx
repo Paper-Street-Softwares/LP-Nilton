@@ -10,7 +10,7 @@ function CardTransformacao({ data, styles }) {
     <MotionDivDownToUp className={`p-8  rounded-2xl ${cardClasses}`}>
       <div className="flex justify-center md:justify-start">
         <span
-          className={`inline-block px-4 py-1 mb-6 text-sm font-semibold rounded-full ${etiquetaClasses}`}
+          className={`inline-block px-4 py-1 mb-6 text-sm font-extrabold rounded-full font-mainFont ${etiquetaClasses}`}
         >
           {etiqueta}
         </span>
