@@ -9,7 +9,7 @@ export default function Transformacao() {
     <>
       <div className="bg-white">
         <SectionArea>
-          <div className="flex flex-col items-center px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="flex flex-col items-center mx-auto max-w-7xl">
             <MotionDivDownToUp>
               <div className="max-w-3xl mx-auto mb-16 text-center">
                 <h2 className="text-3xl font-bold tracking-tight text-fontDarker lg:text-4xl">

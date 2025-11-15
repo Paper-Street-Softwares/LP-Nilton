@@ -17,7 +17,7 @@ export default function Cta() {
         </div>
 
         <SectionArea>
-          <div className="relative z-10 px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
+          <div className="relative z-10 mx-auto text-center max-w-7xl">
             <MotionDivDownToUp>
               <span className="inline-block px-4 py-1 text-xs font-semibold tracking-wider uppercase rounded-full text-fontLighter bg-darker">
                 {content.cta.texts.etiqueta}

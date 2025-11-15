@@ -8,7 +8,7 @@ export default function About() {
     <>
       <div className="bg-gray-50">
         <SectionArea>
-          <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
+          <div className="mx-auto max-w-7xl ">
             <MotionDivDownToUp>
               <h2 className="mb-10 text-3xl font-bold tracking-tight text-center text-fontDarker lg:text-4xl">
                 {content.about.texts.titulo}

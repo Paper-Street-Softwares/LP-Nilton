@@ -16,7 +16,7 @@ export default function Footer() {
           <div class="absolute inset-0 bg-black/90"></div>
         </div>
         <SectionArea>
-          <div className="relative z-10 px-4 mx-auto text-center max-w-7xl sm:px-6 lg:px-8">
+          <div className="relative z-10 mx-auto text-center max-w-7xl ">
             <MotionDivDownToUp>
               <span className="inline-flex items-center rounded-full bg-darker text-lighter font-semibold text-xs px-4 py-1.5 uppercase tracking-wider ring-1 ring-inset ring-white/10">
                 <svg
