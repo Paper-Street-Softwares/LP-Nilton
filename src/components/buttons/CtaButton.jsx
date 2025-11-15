@@ -35,9 +35,9 @@ export default function CtaButton({
           font-medium font-secondFont px-6 py-3 rounded-lg text-lg 
           transition-all hover:scale-105 shadow-lg gap-3
           min-w-[10px] 
+          text-center
         `}
       >
-        {/* 2. Renderização condicional adicionada */}
         {reflexAnimation && (
           <span
             className={`
