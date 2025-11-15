@@ -121,8 +121,11 @@ const content = {
   cta: {
     texts: {
       etiqueta: "Atendimento direto com o advogado",
-      titulo:
-        "Não adie mais: seu caso needs de atenção agora para evitar mais prejuízos e desgaste",
+      titulo: (
+        <h2>
+          Este é um CTA, e essa é a palavra em <strong>Foco</strong>!
+        </h2>
+      ),
       labelBotaoPrincial: "Fale comigo agora mesmo",
     },
     pontos: [

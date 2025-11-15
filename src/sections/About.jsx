@@ -7,9 +7,9 @@ import content from "../content/Content";
 export default function About() {
   return (
     <>
-      <div className="bg-gray-50">
+      <div className="bg-neutral-100">
         <SectionArea>
-          <div className="mx-auto max-w-7xl ">
+          <div className="flex flex-col items-center mx-auto max-w-7xl">
             <SectionHeader title={content.about.texts.titulo} />
 
             <MotionDivDownToUp>

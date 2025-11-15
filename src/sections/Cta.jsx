@@ -1,7 +1,6 @@
 import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 import SectionArea from "../components/sectionElements/SectionArea";
-import SectionHeader from "../components/sectionElements/SectionHeader.jsx";
 import content from "../content/Content";
 
 export default function Cta() {
@@ -39,7 +38,11 @@ export default function Cta() {
               </span>
             </MotionDivDownToUp>
 
-            <SectionHeader colorMode={light} title={content.cta.texts.titulo} />
+            <MotionDivDownToUp>
+              <h2 className="max-w-3xl mx-auto mt-6 text-3xl text-fontLighter font-mainFont lg:text-4xl">
+                {content.cta.texts.titulo}
+              </h2>
+            </MotionDivDownToUp>
 
             <div className="max-w-3xl mx-auto mt-10 shadow-lg rounded-2xl">
               <MotionDivDownToUp>
