@@ -1,4 +1,10 @@
-import { Scale, Clock } from "lucide-react";
+import {
+  Scale,
+  Clock,
+  BriefcaseBusiness,
+  Hourglass,
+  Users,
+} from "lucide-react";
 
 export const infos = {
   telefone: {
@@ -23,50 +29,50 @@ const content = {
       etiqueta: "⚖️ Advogado em Santo André - SP",
       titulo: (
         <p>
-          Precisando de Advogado <strong>Trabalhista?</strong>
+          Precisando de um <strong>Advogado?</strong>
         </p>
       ),
       subtitulo:
-        "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa para evitar mais desgaste.",
-      labelBotaoPrincial: "Fale comigo agora mesmo",
+        "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa.",
+      labelBotaoPrincial: "Falar com Advogado no Whatsapp",
       labelBotaoSecundario: "Agendar horário",
     },
   },
 
   features: {
     texts: {
-      titulo: "Como ajudo em cada situação",
-      labelBotaoPrincial: "Fale comigo agora",
+      titulo: "Cuido do seu caso com excelência",
+      labelBotaoPrincial: "Preciso de ajuda com meu caso",
     },
     cards: [
       {
         index: 1,
-        icone: Scale,
-        titulo: "Direitos trabalhistas",
+        icone: BriefcaseBusiness,
+        titulo: "Direito trabalhista",
         descricao:
           "Assumo seu caso e busco corrigir demissão injusta, verbas atrasadas e assédio.",
       },
       {
         index: 2,
-        icone: Clock,
-        titulo: "Horas extras e pressão",
+        icone: Hourglass,
+        titulo: "Direito Previdenciário",
         descricao:
-          "Te ajudo a comprovar horas não pagas e lidar com cobranças abusivas no trabalho.",
+          "Te auxilio na obtenção de benefícios e resolução de problemas com o INSS.",
       },
       {
         index: 3,
-        icone: Scale,
-        titulo: "Guarda e pensão",
+        icone: Users,
+        titulo: "Direito de Família",
         descricao:
-          "Acompanho seu conflito familiar para proteger seus filhos e reduzir o desgaste.",
+          "Te ajudo com divórcios, pensão alimentícia, guarda e partilha de bens",
       },
     ],
   },
 
   transformacao: {
     texts: {
-      titulo: "Como sua vida muda comigo",
-      labelBotaoPrincial: "Seja atendido por mim agora mesmo",
+      titulo: "Te ajudo a mudar de vida",
+      labelBotaoPrincial: "Preciso da ajuda de um Advogado",
     },
     antes: {
       etiqueta: "ANTES",
@@ -74,17 +80,17 @@ const content = {
         {
           index: 1,
           texto:
-            "Você tenta resolver tudo sozinho e só encontra portas fechadas",
+            "Você se sente injustiçado(a) mas não sabe o que fazer pra resolver",
         },
         {
           index: 2,
           texto:
-            "A insegurança cresce porque ninguém te explica o que realmente fazer",
+            "Sabe que precisa de um advogado mas não sente segurança pra contratar um",
         },
         {
           index: 3,
           texto:
-            "Você perde tempo com atendimentos que não te escutam de verdade",
+            "Tem sempre a sensação de que deveria entrar com uma ação e com isso quitar suas dívidas",
         },
       ],
     },
@@ -94,17 +100,18 @@ const content = {
       pontos: [
         {
           index: 1,
-          texto: "Você entende cada passo do caso e segue com mais segurança",
+          texto:
+            "Você vive em paz sabendo que seu caso está em andamento, sempre sendo informado(a)",
         },
         {
           index: 2,
           texto:
-            "Eu te atualizo sempre, evitando dúvidas e reduzindo o desgaste",
+            "Você fala comigo sempre que precisa, não precisando mais procurar outros profissionais",
         },
         {
           index: 3,
           texto:
-            "Você deixa de enfrentar tudo sozinho e ganha clareza no caminho",
+            "Dorme tranquilo(a) sabendo que seu caso está em ótimas mãos e a justiça será feita",
         },
       ],
     },
@@ -112,18 +119,40 @@ const content = {
 
   cta: {
     texts: {
-      etiqueta: "Atendimento direto com o advogado",
+      etiqueta: "Não espere nem mais um segundo",
       titulo: (
         <h2>
-          Este é um CTA, e essa é a palavra em <strong>Foco</strong>!
+          Cada minuto que você não corre atrás dos seus direitos,{" "}
+          <strong>você pode estar sendo lesado(a)</strong>!
         </h2>
       ),
-      labelBotaoPrincial: "Fale comigo agora mesmo",
+      labelBotaoPrincial: "Quero resolver agora mesmo",
     },
     pontos: [
-      { index: 1, texto: "Contato direto comigo" },
-      { index: 2, texto: "Explico cada passo sem complicação" },
-      { index: 3, texto: "Atualizações constantes do processo" },
+      {
+        index: 1,
+        texto: (
+          <p>
+            Analiso seu caso <strong>sem custo</strong>
+          </p>
+        ),
+      },
+      {
+        index: 2,
+        texto: (
+          <p>
+            Respondo rápido no <strong>Whatsapp</strong>
+          </p>
+        ),
+      },
+      {
+        index: 3,
+        texto: (
+          <p>
+            Tiro <strong>todas</strong> as suas dúvidas
+          </p>
+        ),
+      },
     ],
   },
 
@@ -133,15 +162,15 @@ const content = {
         "https://pachecoepeixotoadvogados.com.br/assets/aboutImg-DwgPvXtM.webp",
     },
     texts: {
-      titulo: "Por que confiam em mim",
-      labelBotaoPrincial: "Fale comigo agora mesmo",
+      titulo: "Por que meus clientes confiam em mim",
+      labelBotaoPrincial: "Fale diretamente comigo",
     },
     pontos: [
       {
         index: 1,
         texto: (
           <p>
-            Contato direto <strong>comigo</strong>
+            Respondo <strong>rápido</strong> porque sei que o seu tempo importa.
           </p>
         ),
       },
@@ -149,7 +178,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Contato direto <strong>comigo</strong>
+            Estou sempre <strong>estudando</strong> todas as mudanças nas leis.
           </p>
         ),
       },
@@ -157,7 +186,8 @@ const content = {
         index: 3,
         texto: (
           <p>
-            Contato direto <strong>comigo</strong>
+            Atuo como Advogado há <strong>3 anos</strong> e tenho diversos
+            clientes satisfeitos.
           </p>
         ),
       },
@@ -165,7 +195,8 @@ const content = {
         index: 4,
         texto: (
           <p>
-            Contato direto <strong>comigo</strong>
+            Não faço promessas falsas: Estudo seu caso e te auxilio
+            <strong> sem enrolação</strong>.
           </p>
         ),
       },
@@ -173,15 +204,8 @@ const content = {
         index: 5,
         texto: (
           <p>
-            Contato direto <strong>comigo</strong>
-          </p>
-        ),
-      },
-      {
-        index: 6,
-        texto: (
-          <p>
-            Contato direto <strong>comigo</strong>
+            Trabalho com os sistemas <strong>mais modernos</strong> pra ser o
+            mais ágil possível.
           </p>
         ),
       },
@@ -194,13 +218,14 @@ const content = {
         "https://www.shutterstock.com/image-illustration/legal-concept-themis-goddess-justice-600nw-2467887949.jpg",
     },
     texts: {
-      etiqueta: "Pronto para começar?",
+      etiqueta: "Chegou a hora de resolver",
       titulo: (
         <h2>
-          Este é um CTA, e essa é a palavra em <strong>Foco</strong>!
+          Entre em contato e vou fazer uma análise imediata do seu caso,{" "}
+          <strong>sem compromisso</strong>.
         </h2>
       ),
-      labelBotaoPrincial: "Seja atendido por mim agora",
+      labelBotaoPrincial: "Quero ser atendido agora",
       direitosReservados:
         "2025 • Nilton Correia • Todos os direitos reservados • Políticas de privacidade",
       desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
