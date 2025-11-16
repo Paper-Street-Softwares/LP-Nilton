@@ -18,11 +18,11 @@ export default function About() {
             <MotionDivDownToUp>
               <div className="flex flex-col max-w-6xl gap-8 p-8 mx-auto bg-white border border-gray-100 shadow-2xl md:gap-16 rounded-2xl sm:p-12 lg:flex-row">
                 <MotionDivDownToUp>
-                  <div className="flex md:justify-center md:items-center">
+                  <div className="flex justify-center md:items-center">
                     <img
                       src={content.about.imagem.imgPessoa}
                       alt="Imagem ilustrativa"
-                      className="w-full max-w-[800px] rounded-lg lg:max-w-[500px]"
+                      className="w-[190px] phone1:w-[245px] phone3:w-[295px] tablet1:w-[400px] max-w-[480px] rounded-lg h-auto"
                     />
                   </div>
                 </MotionDivDownToUp>

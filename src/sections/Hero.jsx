@@ -20,8 +20,8 @@ export default function Hero({ imagemFocadaBackground }) {
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
               <img
                 src={content.hero.imagens.logo}
-                alt="Imagem ilustrativa"
-                className="w-full max-w-[350px] mb-6"
+                alt="Logomarca"
+                className="w-[288px] phone2:w-[330px] phone3:w-[350px] h-auto mb-6"
               />
             </div>
           </MotionDivDownToUp>

@@ -1,10 +1,6 @@
-import {
-  Scale,
-  Clock,
-  BriefcaseBusiness,
-  Hourglass,
-  Users,
-} from "lucide-react";
+import { BriefcaseBusiness, Hourglass, Users } from "lucide-react";
+import imgLogo from "../assets/logo.webp";
+import imgAbout from "../assets/about.webp";
 
 export const infos = {
   telefone: {
@@ -23,7 +19,7 @@ const content = {
         "https://claudioalcantaraadv.com.br/assets/lawHero-D_Ryj5Yt.webp",
       focadaHero:
         "https://matthausadvocacia.com.br/assets/bgHeroLp03-Bgytujwp.webp",
-      logo: "https://claudioalcantaraadv.com.br/assets/logo-y07rY4Ti.webp",
+      logo: imgLogo,
     },
     texts: {
       etiqueta: "⚖️ Advogado em Santo André - SP",
@@ -158,8 +154,7 @@ const content = {
 
   about: {
     imagem: {
-      imgPessoa:
-        "https://pachecoepeixotoadvogados.com.br/assets/aboutImg-DwgPvXtM.webp",
+      imgPessoa: imgAbout,
     },
     texts: {
       titulo: "Por que meus clientes confiam em mim",

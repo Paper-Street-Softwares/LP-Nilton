@@ -34,6 +34,16 @@ export const theme = {
       title6: "3rem",
       title7: "3.5rem",
     },
+    screens: {
+      phone1: "320px",
+      phone2: "375px",
+      phone3: "425px",
+      tablet1: "640px",
+      tablet2: "768px",
+      desktop1: "1024px",
+      desktop2: "1280px",
+      desktop3: "1440px",
+    },
     animation: {
       "shine-loop": "shine-loop 5s ease-in-out infinite",
     },
