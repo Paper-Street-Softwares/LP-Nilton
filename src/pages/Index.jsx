@@ -1,3 +1,4 @@
+import WhatsappFloatingButton from "../components/buttons/WhatsappFloatingButton";
 import About from "../sections/About";
 import Cta from "../sections/Cta";
 import Features from "../sections/Features";
@@ -16,6 +17,7 @@ export default function Index() {
         <About />
       </main>
       <Footer />
+      <WhatsappFloatingButton />
     </>
   );
 }
