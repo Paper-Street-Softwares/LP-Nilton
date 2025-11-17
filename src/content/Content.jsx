@@ -1,6 +1,7 @@
 import { BriefcaseBusiness, Hourglass, Users } from "lucide-react";
 import imgLogo from "../assets/logo.webp";
 import imgAbout from "../assets/about.webp";
+import imgBackground from "../assets/background.webp";
 
 export const infos = {
   telefone: {
@@ -15,60 +16,59 @@ export const infos = {
 const content = {
   hero: {
     imagens: {
-      backgroundHero:
-        "https://claudioalcantaraadv.com.br/assets/lawHero-D_Ryj5Yt.webp",
+      backgroundHero: imgBackground,
       focadaHero:
         "https://matthausadvocacia.com.br/assets/bgHeroLp03-Bgytujwp.webp",
       logo: imgLogo,
     },
     texts: {
-      etiqueta: "⚖️ Advogado em Santo André - SP",
+      etiqueta: "⚖️ Advogado Em Santo André – SP",
       titulo: (
         <p>
-          Precisando de um <strong>Advogado?</strong>
+          Precisando <strong>De Um Advogado</strong>?
         </p>
       ),
       subtitulo:
         "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa.",
       labelBotaoPrincial: "Falar com Advogado no Whatsapp",
-      labelBotaoSecundario: "Agendar horário",
+      labelBotaoSecundario: "Agendar Horário",
     },
   },
 
   features: {
     texts: {
       titulo: "Cuido do seu caso com excelência",
-      labelBotaoPrincial: "Preciso de ajuda com meu caso",
+      labelBotaoPrincial: "Preciso De Ajuda Com Meu Caso",
     },
     cards: [
       {
         index: 1,
         icone: BriefcaseBusiness,
-        titulo: "Direito trabalhista",
+        titulo: "Direito Trabalhista",
         descricao:
-          "Assumo seu caso e busco corrigir demissão injusta, verbas atrasadas e assédio.",
+          "Corrijo demissão injusta, verbas atrasadas, assédio e outros problemas no trabalho.",
       },
       {
         index: 2,
         icone: Hourglass,
-        titulo: "Direito Previdenciário",
+        titulo: "Direito De Família",
         descricao:
-          "Te auxilio na obtenção de benefícios e resolução de problemas com o INSS.",
+          "Apoio em divórcio, pensão, guarda e partilha de forma humana e segura.",
       },
       {
         index: 3,
         icone: Users,
-        titulo: "Direito de Família",
+        titulo: "Direito Do Consumidor",
         descricao:
-          "Te ajudo com divórcios, pensão alimentícia, guarda e partilha de bens",
+          "Defendo você contra cobranças abusivas, golpes, contratos e serviços falhos.",
       },
     ],
   },
 
   transformacao: {
     texts: {
-      titulo: "Te ajudo a mudar de vida",
-      labelBotaoPrincial: "Preciso da ajuda de um Advogado",
+      titulo: "Te Ajudo A Mudar De Vida",
+      labelBotaoPrincial: "Preciso Da Ajuda De Um Advogado",
     },
     antes: {
       etiqueta: "ANTES",
@@ -114,22 +114,26 @@ const content = {
   },
 
   cta: {
+    imagem: {
+      background: imgBackground,
+    },
     texts: {
       etiqueta: "Não espere nem mais um segundo",
+
       titulo: (
         <h2>
-          Cada minuto que você não corre atrás dos seus direitos,{" "}
+          Cada minuto que você não corre atrás dos seus direitos,
           <strong>você pode estar sendo lesado(a)</strong>!
         </h2>
       ),
-      labelBotaoPrincial: "Quero resolver agora mesmo",
+      labelBotaoPrincial: "Quero Resolver Agora Mesmo",
     },
     pontos: [
       {
         index: 1,
         texto: (
           <p>
-            Analiso seu caso <strong>sem custo</strong>
+            Atendimento <strong>para todo o Brasil</strong>
           </p>
         ),
       },
@@ -137,7 +141,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Respondo rápido no <strong>Whatsapp</strong>
+            <strong>Analiso </strong>completamente seu caso
           </p>
         ),
       },
@@ -145,7 +149,7 @@ const content = {
         index: 3,
         texto: (
           <p>
-            Tiro <strong>todas</strong> as suas dúvidas
+            Respondo <strong>rápido </strong>no Whatsapp
           </p>
         ),
       },
@@ -157,8 +161,8 @@ const content = {
       imgPessoa: imgAbout,
     },
     texts: {
-      titulo: "Por que meus clientes confiam em mim",
-      labelBotaoPrincial: "Fale diretamente comigo",
+      titulo: "Por Que Meus Clientes Confiam Em Mim",
+      labelBotaoPrincial: "Fale Diretamente Comigo",
     },
     pontos: [
       {
@@ -181,8 +185,8 @@ const content = {
         index: 3,
         texto: (
           <p>
-            Atuo como Advogado há <strong>3 anos</strong> e tenho diversos
-            clientes satisfeitos.
+            Com <strong>anos de experiência</strong>, atuo como Advogado e tenho
+            diversos clientes satisfeitos.
           </p>
         ),
       },
@@ -191,7 +195,7 @@ const content = {
         texto: (
           <p>
             Não faço promessas falsas: Estudo seu caso e te auxilio
-            <strong> sem enrolação</strong>.
+            <strong> sem enrolação.</strong>.
           </p>
         ),
       },
@@ -209,20 +213,19 @@ const content = {
 
   footer: {
     imagem: {
-      baclground:
-        "https://www.shutterstock.com/image-illustration/legal-concept-themis-goddess-justice-600nw-2467887949.jpg",
+      background: imgBackground,
     },
     texts: {
       etiqueta: "Chegou a hora de resolver",
       titulo: (
         <h2>
-          Entre em contato e vou fazer uma análise imediata do seu caso,{" "}
-          <strong>sem compromisso</strong>.
+          Entre em contato e vou fazer uma <strong>análise imediata</strong> do
+          seu caso.
         </h2>
       ),
-      labelBotaoPrincial: "Quero ser atendido agora",
+      labelBotaoPrincial: "Quero Ser Atendido Agora",
       direitosReservados:
-        "2025 • Nilton Correia • Todos os direitos reservados • Políticas de privacidade",
+        "2025 • Dr. Nilton Correia • Todos os direitos reservados • Políticas de privacidade",
       desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
     },
     pontos: {
