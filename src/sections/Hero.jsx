@@ -5,19 +5,19 @@ import CtaButton from "../components/buttons/CtaButton";
 export default function Hero({ imagemFocadaBackground }) {
   return (
     <>
-      <div class="relative bg-black overflow-hidden">
-        <div class="absolute inset-0 z-0">
+      <div className="relative overflow-hidden bg-black">
+        <div className="absolute inset-0 z-0">
           <img
             src={content.hero.imagens.backgroundHero}
             alt="Imagem ilustrativa"
-            class="w-full h-full object-cover"
+            className="object-cover w-full h-full"
           />
-          <div class="absolute inset-0 bg-black/90 lg:bg-black/85"></div>
+          <div className="absolute inset-0 bg-black/90 lg:bg-black/85"></div>
         </div>
 
         <div
-          class={`relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 sm:pt-16 lg:pt-36 ${
-            imagemFocadaBackground && "lg:pt-12"
+          className={`relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 sm:pt-16 lg:pt-36 ${
+            imagemFocadaBackground && "lg:pt-10"
           } lg:pb-28 text-center text-fontLighter`}
         >
           <MotionDivDownToUp>
@@ -45,17 +45,16 @@ export default function Hero({ imagemFocadaBackground }) {
             </span>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <h1 class="text-4xl sm:text-5xl lg:text-6xl tracking-tight font-medium font-mainFont capitalize">
+            <h1 className="text-4xl font-medium tracking-tight capitalize sm:text-5xl lg:text-6xl font-mainFont">
               {content.hero.texts.titulo}
             </h1>
           </MotionDivDownToUp>
           <MotionDivDownToUp>
-            <p class="mt-6 max-w-3xl mx-auto text-lg sm:text-xl text-fontLighter/85 font-secondFont">
+            <p className="max-w-3xl mx-auto mt-6 text-lg sm:text-xl text-fontLighter/85 font-secondFont">
               {content.hero.texts.subtitulo}
             </p>
           </MotionDivDownToUp>
-
-          <div class="mt-10 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
+          <div className="flex flex-col items-center justify-center mt-10 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <CtaButton
               icon={content.util.svgWhatsapp}
               link={content.util.ctaWhatsapp}
@@ -69,10 +68,10 @@ export default function Hero({ imagemFocadaBackground }) {
               colorMode="dark"
             />
           </div>
-          <div class="absolute bottom-6 left-1/2 -translate-x-1/2">
+          <div className="absolute -translate-x-1/2 bottom-6 left-1/2">
             <MotionDivDownToUp>
               <svg
-                class="h-8 w-8 text-fontLighter animate-bounce"
+                className="w-8 h-8 text-fontLighter animate-bounce"
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
