@@ -9,7 +9,7 @@ export default function Footer() {
       <div className="relative">
         <div class="absolute inset-0 z-0">
           <img
-            src={content.footer.imagem.baclground}
+            src={content.footer.imagem.background}
             alt="Imagem ilustrativa"
             class="w-full h-full object-cover"
           />
