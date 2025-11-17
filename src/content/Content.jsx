@@ -25,7 +25,7 @@ const content = {
       etiqueta: "⚖️ Advogado Em Santo André – SP",
       titulo: (
         <p>
-          Precisando <strong>De Um Advogado</strong>?
+          Precisando De Um <strong>Advogado</strong>?
         </p>
       ),
       subtitulo:
