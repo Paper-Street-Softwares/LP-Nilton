@@ -1,5 +1,6 @@
 import { BriefcaseBusiness, Hourglass, Users } from "lucide-react";
 import imgLogo from "../assets/logo.webp";
+import imgHero from "../assets/hero.webp";
 import imgAbout from "../assets/about.webp";
 import imgBackground from "../assets/background.webp";
 
@@ -17,8 +18,7 @@ const content = {
   hero: {
     imagens: {
       backgroundHero: imgBackground,
-      focadaHero:
-        "https://matthausadvocacia.com.br/assets/bgHeroLp03-Bgytujwp.webp",
+      focadaHero: imgHero,
       logo: imgLogo,
     },
     texts: {
