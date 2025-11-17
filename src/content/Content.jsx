@@ -5,9 +5,9 @@ import imgBackground from "../assets/background.webp";
 
 export const infos = {
   telefone: {
-    ddd: "00",
-    primeiraParte: "00000",
-    segundaParte: "0000",
+    ddd: "11",
+    primeiraParte: "96358",
+    segundaParte: "7483",
   },
   mensagemWhatsapp:
     "Olá! Vim através do site e gostaria de tirar algumas dúvidas sobre meu caso.",
@@ -141,7 +141,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Analiso <strong>completamente seu caso</strong>
+            <strong>Analiso </strong>completamente seu caso
           </p>
         ),
       },
@@ -149,7 +149,7 @@ const content = {
         index: 3,
         texto: (
           <p>
-            Respondo <strong>rápido no Whatsapp</strong>
+            Respondo <strong>rápido </strong>no Whatsapp
           </p>
         ),
       },
@@ -219,8 +219,8 @@ const content = {
       etiqueta: "Chegou a hora de resolver",
       titulo: (
         <h2>
-          Entre em contato e vou fazer uma análise{" "}
-          <strong>imediata do seu caso</strong>.
+          Entre em contato e vou fazer uma <strong>análise imediata</strong> do
+          seu caso.
         </h2>
       ),
       labelBotaoPrincial: "Quero Ser Atendido Agora",
