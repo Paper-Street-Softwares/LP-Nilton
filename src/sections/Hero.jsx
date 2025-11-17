@@ -15,7 +15,11 @@ export default function Hero({ imagemFocadaBackground }) {
           <div class="absolute inset-0 bg-black/90 lg:bg-black/85"></div>
         </div>
 
-        <div class="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 sm:pt-16 lg:pt-36 lg:pb-28 text-center text-fontLighter">
+        <div
+          class={`relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 sm:pt-16 lg:pt-36 ${
+            imagemFocadaBackground && "lg:pt-12"
+          } lg:pb-28 text-center text-fontLighter`}
+        >
           <MotionDivDownToUp>
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
               <img

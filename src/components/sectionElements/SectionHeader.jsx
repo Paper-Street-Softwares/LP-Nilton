@@ -17,7 +17,7 @@ export default function SectionHeader({ colorMode, title, marginBottom }) {
           {title}
         </h2>
         <div
-          className={`w-full h-px max-w-6xl mx-auto mt-6 mb-14 ${marginBottom} bg-custom-divider-lighter`}
+          className={`w-full h-px max-w-6xl mx-auto mt-6 mb-6 lg:mb-12 ${marginBottom} bg-custom-divider-lighter`}
         ></div>
       </MotionDivDownToUp>
     </>
