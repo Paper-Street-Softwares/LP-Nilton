@@ -7,7 +7,7 @@ function CardTransformacao({ data, styles }) {
   const { cardClasses, etiquetaClasses, bulletClasses, textoClasses } = styles;
 
   return (
-    <MotionDivDownToUp className={`p-8  rounded-2xl ${cardClasses}`}>
+    <MotionDivDownToUp className={`p-8  ${cardClasses}`}>
       <div className="flex justify-center md:justify-start">
         <span
           className={`inline-block px-4 py-1 mb-6 text-sm font-extrabold rounded-full font-mainFont ${etiquetaClasses}`}

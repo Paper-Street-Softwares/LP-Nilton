@@ -185,8 +185,8 @@ const content = {
         index: 3,
         texto: (
           <p>
-            Com <strong>anos de experiência</strong>, atuo como Advogado e tenho
-            diversos clientes satisfeitos.
+            <strong>Ampla experiência</strong> na Advocacia e muitos clientes
+            satisfeitos.
           </p>
         ),
       },
