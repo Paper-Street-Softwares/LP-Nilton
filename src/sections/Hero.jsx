@@ -16,7 +16,7 @@ export default function Hero({ imagemFocadaBackground }) {
         </div>
 
         <div
-          className={`relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 sm:pt-16 lg:pt-36 ${
+          className={`relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 sm:pt-16 md:pt-28 ${
             imagemFocadaBackground && "lg:pt-10"
           } lg:pb-28 text-center text-fontLighter`}
         >
