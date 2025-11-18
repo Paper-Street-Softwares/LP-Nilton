@@ -22,45 +22,46 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta: "⚖️ Advogado Em Santo André – SP",
+      etiqueta: "⚖️ Precisando de um Advogado Trabalhista?",
       titulo: (
         <p>
-          Precisando De Um <strong>Advogado</strong>?
+          Atendo diariamente trabalhadores que precisam defender seus direitos,
+          assumindo seu caso de perto e te orientando{" "}
+          <strong>com clareza</strong> em cada etapa.
         </p>
       ),
-      subtitulo:
-        "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa.",
-      labelBotaoPrincial: "Falar com Advogado no Whatsapp",
+      subtitulo: "Falar com Advogado no Whatsapp",
+      labelBotaoPrincial: "Agendar Horário",
       labelBotaoSecundario: "Agendar Horário",
     },
   },
 
   features: {
     texts: {
-      titulo: "Cuido do seu caso com excelência",
-      labelBotaoPrincial: "Preciso De Ajuda Com Meu Caso",
+      titulo: "Cuido do seu caso trabalhista com excelência",
+      labelBotaoPrincial: "Preciso de Ajuda com Meu Caso Trabalhista",
     },
     cards: [
       {
         index: 1,
         icone: BriefcaseBusiness,
-        titulo: "Direito Trabalhista",
+        titulo: "Demissão e Verbas Rescisórias",
         descricao:
-          "Corrijo demissão injusta, verbas atrasadas, assédio e outros problemas no trabalho.",
+          "Te ajudo a revisar sua demissão, verbas atrasadas e descontos indevidos no trabalho.",
       },
       {
         index: 2,
         icone: Hourglass,
-        titulo: "Direito De Família",
+        titulo: "Assédio e Ambiente Tóxico",
         descricao:
-          "Apoio em divórcio, pensão, guarda e partilha de forma humana e segura.",
+          "Acompanho seu caso de perto para enfrentar assédio, humilhações e situações abusivas.",
       },
       {
         index: 3,
         icone: Users,
-        titulo: "Direito Do Consumidor",
+        titulo: "Direitos Negados no Trabalho",
         descricao:
-          "Defendo você contra cobranças abusivas, golpes, contratos e serviços falhos.",
+          "Te oriento quando sua empresa nega horas extras, férias, FGTS ou qualquer direito básico.",
       },
     ],
   },
@@ -76,17 +77,17 @@ const content = {
         {
           index: 1,
           texto:
-            "Você se sente injustiçado(a) mas não sabe o que fazer pra resolver",
+            "Você se sente injustiçado(a) no trabalho e não sabe qual é o próximo passo.",
         },
         {
           index: 2,
           texto:
-            "Sabe que precisa de um advogado mas não sente segurança pra contratar um",
+            "Sabe que precisa de um advogado trabalhista, mas não sente segurança para contratar.",
         },
         {
           index: 3,
           texto:
-            "Tem sempre a sensação de que deveria entrar com uma ação e com isso quitar suas dívidas",
+            "Tem a sensação de que deveria buscar seus direitos para ter mais tranquilidade financeira.",
         },
       ],
     },
@@ -97,17 +98,17 @@ const content = {
         {
           index: 1,
           texto:
-            "Você vive em paz sabendo que seu caso está em andamento, sempre sendo informado(a)",
+            "Você vive em paz sabendo que seu caso trabalhista está em andamento e que eu te mantenho informado(a).",
         },
         {
           index: 2,
           texto:
-            "Você fala comigo sempre que precisa, não precisando mais procurar outros profissionais",
+            "Você fala diretamente comigo sempre que precisa, sem ficar procurando outros profissionais.",
         },
         {
           index: 3,
           texto:
-            "Dorme tranquilo(a) sabendo que seu caso está em ótimas mãos e a justiça será feita",
+            "Dorme tranquilo(a) sabendo que seu caso está sendo acompanhado de perto por quem entende do assunto.",
         },
       ],
     },
@@ -123,7 +124,7 @@ const content = {
       titulo: (
         <h2>
           Cada minuto que você não corre atrás dos seus direitos,
-          <strong>você pode estar sendo lesado(a)</strong>!
+          <strong>você pode estar sendo lesado(a)!</strong>!
         </h2>
       ),
       labelBotaoPrincial: "Quero Resolver Agora Mesmo",
@@ -133,7 +134,7 @@ const content = {
         index: 1,
         texto: (
           <p>
-            Atendimento <strong>para todo o Brasil</strong>
+            Atendimento para<strong> todo o Brasil</strong>
           </p>
         ),
       },
