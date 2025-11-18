@@ -76,7 +76,7 @@ export default function Footer() {
               </p>
             </MotionDivDownToUp>
 
-            <div className="mt-12 text-sm text-fontLighter/50 flex gap-1">
+            <div className="mt-12 text-sm text-fontLighter/50 ">
               {content.footer.texts.direitosReservados}{" "}
               <a onClick={abrirModal} className="underline cursor-pointer">
                 Políticas de privacidade
