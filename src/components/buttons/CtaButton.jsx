@@ -6,6 +6,7 @@ export default function CtaButton({
   label,
   colorMode,
   reflexAnimation = true,
+  onClick,
 }) {
   const themes = {
     light: "bg-lighter text-fontDarker ",
@@ -25,6 +26,7 @@ export default function CtaButton({
       <a
         target="_blank"
         href={link}
+        onClick={onClick}
         className={`
           relative
           overflow-hidden

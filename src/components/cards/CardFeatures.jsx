@@ -1,7 +1,23 @@
+import content from "../../content/Content.jsx";
 import MotionDivDownToUp from "../animations/MotionDownToUp.jsx";
 import CtaButton from "../buttons/CtaButton.jsx";
+import React, { useState } from "react";
+import { Dialog } from "primereact/dialog";
+import { X, MoveRight } from "lucide-react";
+import "primereact/resources/themes/lara-light-cyan/theme.css";
 
-function CardFeatures({ icone: Icone, titulo, descricao }) {
+function CardFeatures({
+  icone: Icone,
+  titulo,
+  descricao,
+  labelBotaoModal,
+  textoModal,
+}) {
+  const [visible, setVisible] = useState(false);
+  const abrirModal = () => {
+    setVisible(true);
+  };
+
   return (
     <MotionDivDownToUp className="p-8 bg-white shadow-lg hover:shadow-xl md:w-[30%] flex flex-col justify-center items-center">
       <div className="inline-flex items-center justify-center w-12 h-12 mb-6 bg-transparent border-2 border-solid rounded-lg text-darker/50 border-lighter">
@@ -16,7 +32,20 @@ function CardFeatures({ icone: Icone, titulo, descricao }) {
         {descricao}
       </p>
 
-     
+      <div className="mt-4">
+        <CtaButton onClick={abrirModal} label={labelBotaoModal} />
+      </div>
+      <Dialog
+        className="font-secondFont"
+        closeIcon={<X size={20} />}
+        header={<span className="text-black">{titulo}</span>}
+        visible={visible}
+        onHide={() => setVisible(false)}
+        style={{ width: "50vw" }}
+        breakpoints={{ "4000px": "641px", "1024px": "641px", "641px": "85vw" }}
+      >
+        {textoModal}
+      </Dialog>
     </MotionDivDownToUp>
   );
 }

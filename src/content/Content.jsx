@@ -49,6 +49,18 @@ const content = {
         descricao:
           "Protejo sua empresa com consultoria, gestão de passivo trabalhista e defesa em ações judiciais.",
         labelBotaoModal: "Saiba mais",
+        textoModal: (
+          <p>
+            Firmeza e prioridade absoluta na defesa do trabalhador, sendo a voz
+            de quem enfrenta abusos e injustiças nas relações de trabalho.
+            <br />
+            <br />
+            Com proteção total, estratégia sólida e compromisso inabalável, o
+            escritório luta até o fim para garantir respeito, direitos e justiça
+            real para quem faz o trabalho acontecer, porque para nós os direitos
+            do trabalhador não se negociam — o seu direito é a nossa causa.
+          </p>
+        ),
       },
       {
         index: 2,
@@ -57,7 +69,20 @@ const content = {
         descricao:
           "Acompanho seu caso de perto para enfrentar assédio, humilhações e situações abusivas.",
         labelBotaoModal: "Saiba mais",
-        textoModal: "",
+        textoModal: (
+          <p>
+            Ofereço proteção jurídica estratégica para empresas, atuando com
+            firmeza, técnica e visão preventiva para eliminar riscos, evitar
+            passivos e fortalecer as relações de trabalho.
+            <br />
+            <br />
+            Com atuação precisa, compliance trabalhista e soluções eficazes, o
+            escritório garante segurança jurídica, redução de litígios e suporte
+            completo na gestão de pessoas, porque para nós a empresa forte é
+            aquela que atua com segurança, responsabilidade e total respaldo
+            legal.
+          </p>
+        ),
       },
       {
         index: 3,
@@ -66,7 +91,43 @@ const content = {
         descricao:
           "Te oriento quando sua empresa nega horas extras, férias, FGTS ou qualquer direito básico.",
         labelBotaoModal: "Saiba mais",
-        textoModal: "",
+        textoModal: (
+          <p>
+            Nilton Correia Advocacia e Assessoria Jurídica atua com firmeza,
+            equilíbrio e sensibilidade no Direito de Família, oferecendo apoio
+            jurídico estratégico em divórcios, pensão alimentícia, guarda,
+            regulamentação de visitas, partilha de bens e conflitos familiares.
+            <br />
+            <br />
+            Com técnica, humanidade e total compromisso com a proteção dos
+            vínculos e interesses envolvidos, o escritório busca soluções
+            justas, seguras e pacíficas, porque para nós cada família merece
+            respeito, acolhimento e a garantia integral de seus direitos.
+          </p>
+        ),
+      },
+      {
+        index: 4,
+        icone: Users,
+        titulo: "Direito Do Consumidor",
+        descricao:
+          "Defendo você contra cobranças abusivas, golpes, contratos e serviços falhos.",
+        labelBotaoModal: "Saiba mais",
+        textoModal: (
+          <p>
+            Nilton Correia Advocacia e Assessoria Jurídica atua com firmeza na
+            defesa do consumidor, enfrentando práticas abusivas, cobranças
+            indevidas, fraudes, negativas de cobertura, vícios de produtos e
+            serviços, garantindo respeito, indenização e a reparação integral
+            dos danos sofridos.
+            <br />
+            <br />
+            Com estratégia sólida, técnica apurada e compromisso absoluto com a
+            justiça, o escritório assegura que seus direitos sejam reconhecidos
+            e aplicados, porque para nós o consumidor merece proteção real e
+            imediata — e essa é a nossa causa.
+          </p>
+        ),
       },
     ],
   },

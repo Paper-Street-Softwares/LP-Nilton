@@ -4,8 +4,16 @@ import CardFeatures from "../components/cards/CardFeatures";
 import SectionArea from "../components/sectionElements/SectionArea";
 import SectionHeader from "../components/sectionElements/SectionHeader.jsx";
 import content from "../content/Content";
+import React, { useState } from "react";
+import { Dialog } from "primereact/dialog";
+import { X, MoveRight } from "lucide-react";
+import "primereact/resources/themes/lara-light-cyan/theme.css";
 
 export default function Features() {
+  const [visible, setVisible] = useState(false);
+  const abrirModal = () => {
+    setVisible(true);
+  };
   return (
     <>
       <div className="bg-neutral-100">
