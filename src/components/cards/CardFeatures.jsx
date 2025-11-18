@@ -1,4 +1,3 @@
-import content from "../../content/Content.jsx";
 import MotionDivDownToUp from "../animations/MotionDownToUp.jsx";
 import CtaButton from "../buttons/CtaButton.jsx";
 import React, { useState } from "react";
