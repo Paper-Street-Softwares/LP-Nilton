@@ -21,12 +21,7 @@ export default function Features() {
                 ))}
             </div>
 
-            <CtaButton
-              icon={content.util.svgWhatsapp}
-              link={content.util.ctaWhatsapp}
-              label={content.features.texts.labelBotaoPrincial}
-              colorMode="dark"
-            />
+           
           </div>
         </SectionArea>
       </div>

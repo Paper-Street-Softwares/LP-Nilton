@@ -22,16 +22,16 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta: "⚖️ Precisando de um Advogado Trabalhista?",
+      etiqueta: "⚖️ Escritório Com Atendimento No ABC E Grande SP",
       titulo: (
         <p>
-          Atendo diariamente trabalhadores que precisam defender seus direitos,
-          assumindo seu caso de perto e te orientando{" "}
-          <strong>com clareza</strong> em cada etapa.
+          Precisando De
+          <strong> Um Advogado</strong> ?
         </p>
       ),
-      subtitulo: "Falar com Advogado no Whatsapp",
-      labelBotaoPrincial: "Agendar Horário",
+      subtitulo:
+        "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa.",
+      labelBotaoPrincial: "Falar com Advogado no Whatsapp",
       labelBotaoSecundario: "Agendar Horário",
     },
   },
@@ -45,9 +45,10 @@ const content = {
       {
         index: 1,
         icone: BriefcaseBusiness,
-        titulo: "Demissão e Verbas Rescisórias",
+        titulo: "Direito do Empregador",
         descricao:
-          "Te ajudo a revisar sua demissão, verbas atrasadas e descontos indevidos no trabalho.",
+          "Protejo sua empresa com consultoria, gestão de passivo trabalhista e defesa em ações judiciais.",
+        labelBotaoModal: "Saiba mais",
       },
       {
         index: 2,
@@ -55,6 +56,8 @@ const content = {
         titulo: "Assédio e Ambiente Tóxico",
         descricao:
           "Acompanho seu caso de perto para enfrentar assédio, humilhações e situações abusivas.",
+        labelBotaoModal: "Saiba mais",
+        textoModal: "",
       },
       {
         index: 3,
@@ -62,6 +65,8 @@ const content = {
         titulo: "Direitos Negados no Trabalho",
         descricao:
           "Te oriento quando sua empresa nega horas extras, férias, FGTS ou qualquer direito básico.",
+        labelBotaoModal: "Saiba mais",
+        textoModal: "",
       },
     ],
   },

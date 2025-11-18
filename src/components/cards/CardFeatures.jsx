@@ -1,5 +1,5 @@
-import React from "react";
 import MotionDivDownToUp from "../animations/MotionDownToUp.jsx";
+import CtaButton from "../buttons/CtaButton.jsx";
 
 function CardFeatures({ icone: Icone, titulo, descricao }) {
   return (
@@ -15,6 +15,8 @@ function CardFeatures({ icone: Icone, titulo, descricao }) {
       <p className="leading-5 text-center text-fontDarker/70 font-secondFont">
         {descricao}
       </p>
+
+     
     </MotionDivDownToUp>
   );
 }
