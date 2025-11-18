@@ -1,4 +1,4 @@
-import { BriefcaseBusiness, Hourglass, Users } from "lucide-react";
+import { BriefcaseBusiness, Hourglass, Users, FileText } from "lucide-react";
 import imgLogo from "../assets/logo.webp";
 import imgHero from "../assets/hero.webp";
 import imgAbout from "../assets/about.webp";
@@ -86,7 +86,7 @@ const content = {
       },
       {
         index: 3,
-        icone: Users,
+        icone: FileText,
         titulo: "Direitos Negados no Trabalho",
         descricao:
           "Te oriento quando sua empresa nega horas extras, férias, FGTS ou qualquer direito básico.",
@@ -134,7 +134,7 @@ const content = {
 
   transformacao: {
     texts: {
-      titulo: "Te Ajudo A Mudar De Vida",
+      titulo: "Recupere Sua Paz Resolvendo Seus Problemas",
       labelBotaoPrincial: "Preciso Da Ajuda De Um Advogado",
     },
     antes: {
@@ -174,7 +174,7 @@ const content = {
         {
           index: 3,
           texto:
-            "Dorme tranquilo(a) sabendo que seu caso está sendo acompanhado de perto por quem entende do assunto.",
+            "Dorme tranquilo(a) sabendo que seu caso está em ótimas mãos e que lutarei pelo seu direito",
         },
       ],
     },
