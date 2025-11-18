@@ -17,7 +17,7 @@ export default function Features() {
               {content.features.cards
                 .filter((card) => card.index !== 0)
                 .map((card) => (
-                  <CardFeatures key={card.index} {...card} />
+                  <CardFeatures modal={true} key={card.index} {...card} />
                 ))}
             </div>
 

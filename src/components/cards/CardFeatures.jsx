@@ -12,6 +12,7 @@ function CardFeatures({
   descricao,
   labelBotaoModal,
   textoModal,
+  modal,
 }) {
   const [visible, setVisible] = useState(false);
   const abrirModal = () => {
@@ -23,23 +24,22 @@ function CardFeatures({
       <div className="inline-flex items-center justify-center w-12 h-12 mb-6 bg-transparent border-2 border-solid rounded-lg text-darker/50 border-lighter">
         {Icone && <Icone size={24} strokeWidth={1.5} />}
       </div>
-
       <h3 className="mb-2 text-xl font-extrabold text-center text-gray-900 capitalize font-secondFont">
         {titulo}
       </h3>
-
       <p className="leading-5 text-center text-fontDarker/70 font-secondFont">
         {descricao}
       </p>
-
-      <div className="mt-4">
-        <a
-          onClick={abrirModal}
-          className="cursor-pointer underline text-darker font-secondFont"
-        >
-          {labelBotaoModal}
-        </a>
-      </div>
+      {modal === true && (
+        <div className="mt-4">
+          <a
+            onClick={abrirModal}
+            className="cursor-pointer underline text-darker font-secondFont"
+          >
+            {labelBotaoModal}
+          </a>
+        </div>
+      )}{" "}
       <Dialog
         className="font-secondFont"
         closeIcon={<X size={20} />}
@@ -47,7 +47,11 @@ function CardFeatures({
         visible={visible}
         onHide={() => setVisible(false)}
         style={{ width: "50vw" }}
-        breakpoints={{ "4000px": "641px", "1024px": "641px", "641px": "85vw" }}
+        breakpoints={{
+          "4000px": "641px",
+          "1024px": "641px",
+          "641px": "85vw",
+        }}
       >
         {textoModal}
       </Dialog>
