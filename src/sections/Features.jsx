@@ -10,10 +10,10 @@ export default function Features() {
     <>
       <div className="bg-neutral-100">
         <SectionArea>
-          <div className="flex flex-col items-center mx-auto max-w-7xl ">
+          <div className="flex flex-col items-center mx-auto max-w-7xl desktop1:max-w-[850px]">
             <SectionHeader title={content.features.texts.titulo} />
 
-            <div className="flex flex-col items-start gap-10 mb-16 md:grid md:grid-cols-2 md:justify-center">
+            <div className="flex flex-col items-start gap-10 mb-16 md:flex-row md:flex-wrap md:justify-evenly">
               {content.features.cards
                 .filter((card) => card.index !== 0)
                 .map((card) => (

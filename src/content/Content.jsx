@@ -1,4 +1,12 @@
-import { BriefcaseBusiness, Hourglass, Users, FileText } from "lucide-react";
+import {
+  BriefcaseBusiness,
+  Hourglass,
+  Users,
+  FileText,
+  Tag,
+  Angry,
+  FileX,
+} from "lucide-react";
 import imgLogo from "../assets/logo.webp";
 import imgHero from "../assets/hero.webp";
 import imgAbout from "../assets/about.webp";
@@ -64,7 +72,7 @@ const content = {
       },
       {
         index: 2,
-        icone: Hourglass,
+        icone: Angry,
         titulo: "Assédio e Ambiente Tóxico",
         descricao:
           "Acompanho seu caso de perto para enfrentar assédio, humilhações e situações abusivas.",
@@ -86,7 +94,7 @@ const content = {
       },
       {
         index: 3,
-        icone: FileText,
+        icone: FileX,
         titulo: "Direitos Negados no Trabalho",
         descricao:
           "Te oriento quando sua empresa nega horas extras, férias, FGTS ou qualquer direito básico.",
@@ -108,7 +116,7 @@ const content = {
       },
       {
         index: 4,
-        icone: Users,
+        icone: Tag,
         titulo: "Direito Do Consumidor",
         descricao:
           "Defendo você contra cobranças abusivas, golpes, contratos e serviços falhos.",

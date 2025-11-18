@@ -19,7 +19,7 @@ function CardFeatures({
   };
 
   return (
-    <MotionDivDownToUp className="p-8 bg-white shadow-lg hover:shadow-xl md:w-[60%] flex flex-col justify-center items-center mx-auto">
+    <MotionDivDownToUp className="p-8 bg-white shadow-lg hover:shadow-xl md:w-[35%] desktop1:w-[40%] flex flex-col justify-center items-center ">
       <div className="inline-flex items-center justify-center w-12 h-12 mb-6 bg-transparent border-2 border-solid rounded-lg text-darker/50 border-lighter">
         {Icone && <Icone size={24} strokeWidth={1.5} />}
       </div>
@@ -33,7 +33,12 @@ function CardFeatures({
       </p>
 
       <div className="mt-4">
-        <CtaButton onClick={abrirModal} label={labelBotaoModal} />
+        <a
+          onClick={abrirModal}
+          className="cursor-pointer underline text-darker font-secondFont"
+        >
+          {labelBotaoModal}
+        </a>
       </div>
       <Dialog
         className="font-secondFont"
