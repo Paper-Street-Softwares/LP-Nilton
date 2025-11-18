@@ -94,9 +94,9 @@ export default function Footer() {
           <Dialog
             className="font-secondFont"
             closeIcon={<X size={20} />}
-            header={
-              <span className="text-black">Políticas de privacidade</span>
-            }
+            // header={
+            //   <span className="text-black">Políticas de privacidade</span>
+            // }
             visible={visible}
             onHide={() => setVisible(false)}
             style={{ width: "50vw" }}

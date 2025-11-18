@@ -303,7 +303,7 @@ const content = {
         "2025 • Dr. Nilton Correia • Todos os direitos reservados • ",
       desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
       privacidade: (
-        <div class="phone3:max-w-3xl mx-auto tablet1:p-6 text-gray-900 leading-relaxed">
+        <div class="phone3:max-w-3xl mx-auto tablet1:px-6 text-gray-900 leading-relaxed font-secondFont">
           <h1 class="text-3xl font-bold mb-6">Política de Privacidade</h1>
 
           <h2 class="text-xl font-semibold mb-3">Informações Importantes</h2>
