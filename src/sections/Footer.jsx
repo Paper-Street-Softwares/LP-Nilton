@@ -2,8 +2,17 @@ import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 import SectionArea from "../components/sectionElements/SectionArea";
 import content from "../content/Content";
+import React, { useState } from "react";
+import { Dialog } from "primereact/dialog";
+import { X, MoveRight } from "lucide-react";
+import "primereact/resources/themes/lara-light-cyan/theme.css";
 
 export default function Footer() {
+  const [visible, setVisible] = useState(false);
+  const abrirModal = () => {
+    setVisible(true);
+  };
+
   return (
     <>
       <div className="relative">
@@ -67,9 +76,12 @@ export default function Footer() {
               </p>
             </MotionDivDownToUp>
 
-            <p className="mt-12 text-sm text-fontLighter/50">
-              {content.footer.texts.direitosReservados} - Desenvolvido com
-              excelência por{" "}
+            <div className="mt-12 text-sm text-fontLighter/50 ">
+              {content.footer.texts.direitosReservados}{" "}
+              <a onClick={abrirModal} className="underline cursor-pointer">
+                Políticas de privacidade
+              </a>{" "}
+              - Desenvolvido com excelência por{" "}
               <a
                 target="_blank"
                 href="https://paperstreet.com.br"
@@ -77,8 +89,25 @@ export default function Footer() {
               >
                 Paper Street
               </a>
-            </p>
+            </div>
           </div>
+          <Dialog
+            className="font-secondFont"
+            closeIcon={<X size={20} />}
+            header={
+              <span className="text-black">Políticas de privacidade</span>
+            }
+            visible={visible}
+            onHide={() => setVisible(false)}
+            style={{ width: "50vw" }}
+            breakpoints={{
+              "4000px": "641px",
+              "1024px": "641px",
+              "641px": "85vw",
+            }}
+          >
+            {content.footer.texts.privacidade}
+          </Dialog>
         </SectionArea>
       </div>
     </>

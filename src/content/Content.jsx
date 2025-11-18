@@ -1,4 +1,12 @@
-import { BriefcaseBusiness, Hourglass, Users } from "lucide-react";
+import {
+  BriefcaseBusiness,
+  Hourglass,
+  Users,
+  FileText,
+  Tag,
+  Angry,
+  FileX,
+} from "lucide-react";
 import imgLogo from "../assets/logo.webp";
 import imgHero from "../assets/hero.webp";
 import imgAbout from "../assets/about.webp";
@@ -22,16 +30,16 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta: "⚖️ Precisando de um Advogado Trabalhista?",
+      etiqueta: "⚖️ Escritório Com Atendimento No ABC E Grande SP",
       titulo: (
         <p>
-          Atendo diariamente trabalhadores que precisam defender seus direitos,
-          assumindo seu caso de perto e te orientando{" "}
-          <strong>com clareza</strong> em cada etapa.
+          Precisando De
+          <strong> Um Advogado</strong> ?
         </p>
       ),
-      subtitulo: "Falar com Advogado no Whatsapp",
-      labelBotaoPrincial: "Agendar Horário",
+      subtitulo:
+        "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa.",
+      labelBotaoPrincial: "Falar com Advogado no Whatsapp",
       labelBotaoSecundario: "Agendar Horário",
     },
   },
@@ -45,30 +53,96 @@ const content = {
       {
         index: 1,
         icone: BriefcaseBusiness,
-        titulo: "Demissão e Verbas Rescisórias",
+        titulo: "Direito do Empregador",
         descricao:
-          "Te ajudo a revisar sua demissão, verbas atrasadas e descontos indevidos no trabalho.",
+          "Protejo sua empresa com consultoria, gestão de passivo trabalhista e defesa em ações judiciais.",
+        labelBotaoModal: "Saiba mais",
+        textoModal: (
+          <p>
+            Firmeza e prioridade absoluta na defesa do trabalhador, sendo a voz
+            de quem enfrenta abusos e injustiças nas relações de trabalho.
+            <br />
+            <br />
+            Com proteção total, estratégia sólida e compromisso inabalável, o
+            escritório luta até o fim para garantir respeito, direitos e justiça
+            real para quem faz o trabalho acontecer, porque para nós os direitos
+            do trabalhador não se negociam — o seu direito é a nossa causa.
+          </p>
+        ),
       },
       {
         index: 2,
-        icone: Hourglass,
+        icone: Angry,
         titulo: "Assédio e Ambiente Tóxico",
         descricao:
           "Acompanho seu caso de perto para enfrentar assédio, humilhações e situações abusivas.",
+        labelBotaoModal: "Saiba mais",
+        textoModal: (
+          <p>
+            Ofereço proteção jurídica estratégica para empresas, atuando com
+            firmeza, técnica e visão preventiva para eliminar riscos, evitar
+            passivos e fortalecer as relações de trabalho.
+            <br />
+            <br />
+            Com atuação precisa, compliance trabalhista e soluções eficazes, o
+            escritório garante segurança jurídica, redução de litígios e suporte
+            completo na gestão de pessoas, porque para nós a empresa forte é
+            aquela que atua com segurança, responsabilidade e total respaldo
+            legal.
+          </p>
+        ),
       },
       {
         index: 3,
-        icone: Users,
+        icone: FileX,
         titulo: "Direitos Negados no Trabalho",
         descricao:
           "Te oriento quando sua empresa nega horas extras, férias, FGTS ou qualquer direito básico.",
+        labelBotaoModal: "Saiba mais",
+        textoModal: (
+          <p>
+            Nilton Correia Advocacia e Assessoria Jurídica atua com firmeza,
+            equilíbrio e sensibilidade no Direito de Família, oferecendo apoio
+            jurídico estratégico em divórcios, pensão alimentícia, guarda,
+            regulamentação de visitas, partilha de bens e conflitos familiares.
+            <br />
+            <br />
+            Com técnica, humanidade e total compromisso com a proteção dos
+            vínculos e interesses envolvidos, o escritório busca soluções
+            justas, seguras e pacíficas, porque para nós cada família merece
+            respeito, acolhimento e a garantia integral de seus direitos.
+          </p>
+        ),
+      },
+      {
+        index: 4,
+        icone: Tag,
+        titulo: "Direito Do Consumidor",
+        descricao:
+          "Defendo você contra cobranças abusivas, golpes, contratos e serviços falhos.",
+        labelBotaoModal: "Saiba mais",
+        textoModal: (
+          <p>
+            Nilton Correia Advocacia e Assessoria Jurídica atua com firmeza na
+            defesa do consumidor, enfrentando práticas abusivas, cobranças
+            indevidas, fraudes, negativas de cobertura, vícios de produtos e
+            serviços, garantindo respeito, indenização e a reparação integral
+            dos danos sofridos.
+            <br />
+            <br />
+            Com estratégia sólida, técnica apurada e compromisso absoluto com a
+            justiça, o escritório assegura que seus direitos sejam reconhecidos
+            e aplicados, porque para nós o consumidor merece proteção real e
+            imediata — e essa é a nossa causa.
+          </p>
+        ),
       },
     ],
   },
 
   transformacao: {
     texts: {
-      titulo: "Te Ajudo A Mudar De Vida",
+      titulo: "Recupere Sua Paz Resolvendo Seus Problemas",
       labelBotaoPrincial: "Preciso Da Ajuda De Um Advogado",
     },
     antes: {
@@ -108,7 +182,7 @@ const content = {
         {
           index: 3,
           texto:
-            "Dorme tranquilo(a) sabendo que seu caso está sendo acompanhado de perto por quem entende do assunto.",
+            "Dorme tranquilo(a) sabendo que seu caso está em ótimas mãos e que lutarei pelo seu direito",
         },
       ],
     },
@@ -226,8 +300,239 @@ const content = {
       ),
       labelBotaoPrincial: "Quero Ser Atendido Agora",
       direitosReservados:
-        "2025 • Dr. Nilton Correia • Todos os direitos reservados • Políticas de privacidade",
+        "2025 • Dr. Nilton Correia • Todos os direitos reservados • ",
       desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
+      privacidade: (
+        <div class="phone3:max-w-3xl mx-auto tablet1:p-6 text-gray-900 leading-relaxed">
+          <h1 class="text-3xl font-bold mb-6">Política de Privacidade</h1>
+
+          <h2 class="text-xl font-semibold mb-3">Informações Importantes</h2>
+
+          <p class="mb-4">
+            Esta Política de Privacidade descreve como coletamos, utilizamos,
+            armazenamos e compartilhamos informações pessoais de usuários de
+            nossos serviços, em conformidade com a Lei Geral de Proteção de
+            Dados (LGPD) - Lei nº 13.709/2018.
+          </p>
+
+          <p class="mb-4">
+            Nos comprometemos a proteger a privacidade e os dados pessoais de
+            todos os usuários, garantindo transparência e segurança em todas as
+            etapas de tratamento.
+          </p>
+
+          <div class="border-t-2 border-black my-8"></div>
+
+          <h2 class="text-xl font-semibold mb-4">Definições</h2>
+
+          <ul class="list-disc ml-6 mb-6 space-y-2">
+            <li>
+              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{" "}
+              órgão responsável pela fiscalização e aplicação da LGPD.
+            </li>
+
+            <li>
+              <strong>Base Legal:</strong> fundamento jurídico que autoriza o
+              tratamento de dados pessoais (como consentimento, execução de
+              contrato, obrigação legal ou legítimo interesse).
+            </li>
+
+            <li>
+              <strong>Consentimento:</strong> manifestação livre e informada do
+              titular que autoriza o tratamento de seus dados pessoais para uma
+              finalidade específica.
+            </li>
+
+            <li>
+              <strong>Dado Pessoal:</strong> qualquer informação que identifique
+              ou possa identificar uma pessoa natural (ex.: nome, CPF, e-mail,
+              telefone, IP, localização, etc.).
+            </li>
+
+            <li>
+              <strong>Dado Pessoal Sensível:</strong> dado que revele origem
+              racial, convicção religiosa, opinião política, dado referente à
+              saúde, vida sexual, dado genético ou biométrico.
+            </li>
+
+            <li>
+              <strong>Titular:</strong> pessoa natural a quem se referem os
+              dados pessoais tratados.
+            </li>
+
+            <li>
+              <strong>Tratamento:</strong> qualquer operação realizada com dados
+              pessoais, como coleta, armazenamento, uso, compartilhamento ou
+              exclusão.
+            </li>
+
+            <li>
+              <strong>Legítimo Interesse:</strong> quando o tratamento é
+              necessário para atender a interesses legítimos do controlador, sem
+              ferir direitos e liberdades fundamentais do titular.
+            </li>
+
+            <li>
+              <strong>Segurança:</strong> medidas técnicas e administrativas
+              adotadas para proteger os dados de acessos não autorizados,
+              vazamentos ou destruição acidental.
+            </li>
+          </ul>
+
+          <p class="mb-4">
+            <strong>Transparência:</strong> direito do titular de receber
+            informações claras e acessíveis sobre o uso de seus dados.
+          </p>
+
+          <div class="border-t-2 border-black my-8"></div>
+
+          <h2 class="text-xl font-semibold mb-4">Direitos dos Titulares</h2>
+
+          <p class="mb-3">Os titulares de dados pessoais têm direito a:</p>
+
+          <ul class="list-disc ml-6 mb-6 space-y-2">
+            <li>Confirmar se seus dados são tratados;</li>
+            <li>
+              Acessar, corrigir, atualizar ou solicitar a exclusão de seus
+              dados;
+            </li>
+            <li>Revogar o consentimento a qualquer momento;</li>
+            <li>Solicitar portabilidade ou anonimização dos dados;</li>
+            <li>Opor-se ao tratamento quando considerar irregular.</li>
+          </ul>
+
+          <p class="mb-4">
+            As solicitações podem ser feitas por meio dos canais de contato
+            disponibilizados pela empresa.
+          </p>
+
+          <div class="border-t-2 border-black my-8"></div>
+
+          <h2 class="text-xl font-semibold mb-4">
+            Coleta e Uso de Dados Pessoais
+          </h2>
+
+          <p class="mb-3">Podemos coletar dados pessoais por meio de:</p>
+
+          <ul class="list-disc ml-6 mb-6 space-y-2">
+            <li>
+              Formulários de contato e cadastro (nome, e-mail, telefone,
+              endereço, CPF, entre outros);
+            </li>
+            <li>
+              Navegação no site, incluindo endereço IP, localização geográfica,
+              tipo de navegador, sistema operacional e tempo de visita;
+            </li>
+            <li>
+              Transações financeiras, quando houver compra de produtos ou
+              contratação de serviços;
+            </li>
+            <li>
+              Interações com o suporte ou atendimento, para aprimorar a
+              experiência do usuário e a qualidade do serviço.
+            </li>
+          </ul>
+
+          <p class="mb-3">Esses dados são utilizados para:</p>
+
+          <ul class="list-disc ml-6 mb-6 space-y-2">
+            <li>Operar, manter e melhorar nossos serviços;</li>
+            <li>Personalizar a experiência do usuário;</li>
+            <li>Cumprir obrigações legais e contratuais;</li>
+            <li>
+              Realizar comunicações e campanhas de marketing, mediante
+              consentimento;
+            </li>
+            <li>
+              Garantir segurança, prevenção a fraudes e cumprimento de
+              exigências legais.
+            </li>
+          </ul>
+
+          <div class="border-t-2 border-black my-8"></div>
+
+          <h2 class="text-xl font-semibold mb-4">
+            Cookies e Tecnologias de Rastreamento
+          </h2>
+
+          <p class="mb-4">
+            Nosso site pode utilizar cookies e tecnologias semelhantes para
+            melhorar a navegação e compreender como os usuários interagem com o
+            conteúdo. O uso de cookies não estritamente necessários dependerá do
+            consentimento do usuário, que poderá ser configurado ou revogado a
+            qualquer momento em seu navegador.
+          </p>
+
+          <div class="border-t-2 border-black my-8"></div>
+
+          <h2 class="text-xl font-semibold mb-4">
+            Compartilhamento e Transferência de Dados
+          </h2>
+
+          <p class="mb-3">Podemos compartilhar dados pessoais com:</p>
+
+          <ul class="list-disc ml-6 mb-6 space-y-2">
+            <li>
+              Parceiros e prestadores de serviço, que auxiliam na operação
+              técnica, hospedagem, marketing ou suporte;
+            </li>
+            <li>Autoridades públicas, quando houver obrigação legal;</li>
+            <li>Instituições financeiras, em transações de pagamento.</li>
+          </ul>
+
+          <p class="mb-4">
+            Em caso de transferência internacional de dados, serão adotadas
+            medidas para garantir que o tratamento esteja em conformidade com a
+            LGPD e com níveis adequados de proteção.
+          </p>
+
+          <div class="border-t-2 border-black my-8"></div>
+
+          <h2 class="text-xl font-semibold mb-4">
+            Armazenamento e Retenção dos Dados
+          </h2>
+
+          <p class="mb-4">
+            Os dados pessoais são armazenados apenas pelo tempo necessário para
+            cumprir as finalidades para as quais foram coletados ou conforme
+            exigido por lei. Após o período de retenção, os dados são eliminados
+            de forma segura, respeitando normas técnicas e regulatórias.
+          </p>
+
+          <div class="border-t-2 border-black my-8"></div>
+
+          <h2 class="text-xl font-semibold mb-4">Segurança da Informação</h2>
+
+          <p class="mb-4">
+            Adotamos medidas técnicas, físicas e administrativas adequadas para
+            proteger os dados pessoais contra acesso não autorizado, perda,
+            alteração, destruição ou divulgação indevida. Embora nenhuma medida
+            seja totalmente infalível, buscamos constantemente aprimorar nossas
+            práticas de segurança.
+          </p>
+
+          <div class="border-t-2 border-black my-8"></div>
+
+          <h2 class="text-xl font-semibold mb-4">Alterações nesta Política</h2>
+
+          <p class="mb-4">
+            Esta Política de Privacidade poderá ser atualizada periodicamente,
+            conforme alterações legais ou melhorias em nossos processos.
+            Recomendamos que o usuário revise este documento regularmente para
+            manter-se informado sobre como protegemos suas informações.
+          </p>
+
+          <div class="border-t-2 border-black my-8"></div>
+
+          <h2 class="text-xl font-semibold mb-4">Contato</h2>
+
+          <p>
+            Em caso de dúvidas, solicitações ou exercício de direitos
+            relacionados a dados pessoais, entre em contato pelo canal de
+            comunicação indicado no site.
+          </p>
+        </div>
+      ),
     },
     pontos: {
       ponto1: "Profissionalismo",
