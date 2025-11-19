@@ -198,7 +198,7 @@ const content = {
       titulo: (
         <h2>
           Cada minuto que você não corre atrás dos seus direitos,
-          <strong>você pode estar sendo lesado(a)!</strong>
+          <strong> você pode estar sendo lesado(a)!</strong>
         </h2>
       ),
       labelBotaoPrincial: "Quero Resolver Agora Mesmo",
