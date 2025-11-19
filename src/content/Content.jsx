@@ -30,11 +30,11 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta: "⚖️ Escritório Com Atendimento No ABC E Grande SP",
+      etiqueta: "⚖️ Atendimento Em Todo O ABC Paulista E Grande SP",
       titulo: (
         <p>
           Precisando De
-          <strong> Um Advogado</strong> ?
+          <strong> Um Advogado</strong>?
         </p>
       ),
       subtitulo:
@@ -151,17 +151,17 @@ const content = {
         {
           index: 1,
           texto:
-            "Você se sente injustiçado(a) no trabalho e não sabe qual é o próximo passo.",
+            "Você se sente injustiçado(a) mas não sabe o que fazer pra resolver",
         },
         {
           index: 2,
           texto:
-            "Sabe que precisa de um advogado trabalhista, mas não sente segurança para contratar.",
+            "Sabe que precisa de um advogado mas não sente segurança pra contratar um",
         },
         {
           index: 3,
           texto:
-            "Tem a sensação de que deveria buscar seus direitos para ter mais tranquilidade financeira.",
+            "Tem sempre a sensação de que deveria entrar com uma ação e com isso quitar suas dívidas",
         },
       ],
     },
@@ -172,12 +172,12 @@ const content = {
         {
           index: 1,
           texto:
-            "Você vive em paz sabendo que seu caso trabalhista está em andamento e que eu te mantenho informado(a).",
+            "Você vive em paz sabendo que seu caso está em andamento, sempre sendo informado(a)",
         },
         {
           index: 2,
           texto:
-            "Você fala diretamente comigo sempre que precisa, sem ficar procurando outros profissionais.",
+            "Você fala comigo sempre que precisa, não precisando mais procurar outros profissionais",
         },
         {
           index: 3,
@@ -198,7 +198,7 @@ const content = {
       titulo: (
         <h2>
           Cada minuto que você não corre atrás dos seus direitos,
-          <strong>você pode estar sendo lesado(a)!</strong>!
+          <strong> você pode estar sendo lesado(a)!</strong>
         </h2>
       ),
       labelBotaoPrincial: "Quero Resolver Agora Mesmo",
@@ -216,7 +216,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            <strong>Analiso </strong>completamente seu caso
+            Mantenho você<strong> informado </strong>do início ao fim
           </p>
         ),
       },
@@ -270,7 +270,7 @@ const content = {
         texto: (
           <p>
             Não faço promessas falsas: Estudo seu caso e te auxilio
-            <strong> sem enrolação.</strong>.
+            <strong> sem enrolação.</strong>
           </p>
         ),
       },
