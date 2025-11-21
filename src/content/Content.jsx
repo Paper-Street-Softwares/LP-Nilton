@@ -73,9 +73,9 @@ const content = {
       {
         index: 2,
         icone: Angry,
-        titulo: "Assédio e Ambiente Tóxico",
+        titulo: "Direito do Trabalhador",
         descricao:
-          "Acompanho seu caso de perto para enfrentar assédio, humilhações e situações abusivas.",
+          "Corrijo demissão injusta, verbas atrasadas, assédio e outros problemas no trabalho.",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
@@ -94,10 +94,10 @@ const content = {
       },
       {
         index: 3,
-        icone: FileX,
-        titulo: "Direitos Negados no Trabalho",
+        icone: Users,
+        titulo: "Direito De Família",
         descricao:
-          "Te oriento quando sua empresa nega horas extras, férias, FGTS ou qualquer direito básico.",
+          "Apoio em divórcio, pensão, guarda e partilha de forma humana e segura.",
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
