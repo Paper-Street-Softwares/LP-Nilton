@@ -6,6 +6,7 @@ import {
   Tag,
   Angry,
   FileX,
+  Hammer,
 } from "lucide-react";
 import imgLogo from "../assets/logo.webp";
 import imgHero from "../assets/hero.webp";
@@ -72,7 +73,7 @@ const content = {
       },
       {
         index: 2,
-        icone: Angry,
+        icone: Hammer,
         titulo: "Direito do Trabalhador",
         descricao:
           "Corrijo demissão injusta, verbas atrasadas, assédio e outros problemas no trabalho.",
