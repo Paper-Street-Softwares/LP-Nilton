@@ -31,15 +31,17 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta: "⚖️ Atendimento Em Todo O ABC Paulista E Grande SP",
+      etiqueta:
+        "⚖️ Escritório Sediado em Santo André Com Atendimento Em Todo O ABC Paulista E Grande SP",
       titulo: (
         <p>
-          Precisando De
-          <strong> Um Advogado</strong>?
+          O engenheiro constrói. O médico cuida. <br />
+          Mas é o<strong className="text-lighter"> ADVOGADO</strong> quem
+          defende seus direitos quando tudo desmorona
         </p>
       ),
       subtitulo:
-        "Atendo diariamente casos trabalhistas, familiares e de consumo, assumindo seu processo de perto e te guiando com clareza em cada etapa.",
+        "Atuo em demandas trabalhistas, de família e de direito do consumidor, assumindo seu caso com foco absoluto, estratégia precisa e comunicação clara, para garantir o máximo de proteção aos seus direitos e a solução mais vantajosa possível",
       labelBotaoPrincial: "Falar com Advogado no Whatsapp",
       labelBotaoSecundario: "Agendar Horário",
     },
@@ -60,14 +62,15 @@ const content = {
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
-            Firmeza e prioridade absoluta na defesa do trabalhador, sendo a voz
-            de quem enfrenta abusos e injustiças nas relações de trabalho.
+            Ofereço proteção jurídica estratégica para empresas, atuando com
+            firmeza, técnica e visão preventiva para eliminar riscos, evitar
+            passivos e fortalecer as relações de trabalho.
             <br />
-            <br />
-            Com proteção total, estratégia sólida e compromisso inabalável, o
-            escritório luta até o fim para garantir respeito, direitos e justiça
-            real para quem faz o trabalho acontecer, porque para nós os direitos
-            do trabalhador não se negociam — o seu direito é a nossa causa.
+            Com atuação precisa, compliance trabalhista e soluções eficazes, o
+            escritório garante segurança jurídica, redução de litígios e suporte
+            completo na gestão de pessoas, porque para nós a empresa forte é
+            aquela que atua com segurança, responsabilidade e total respaldo
+            legal.
           </p>
         ),
       },
@@ -80,16 +83,14 @@ const content = {
         labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
-            Ofereço proteção jurídica estratégica para empresas, atuando com
-            firmeza, técnica e visão preventiva para eliminar riscos, evitar
-            passivos e fortalecer as relações de trabalho.
+            Firmeza e prioridade absoluta na defesa do trabalhador, sendo a voz
+            de quem enfrenta abusos e injustiças nas relações de trabalho.
             <br />
             <br />
-            Com atuação precisa, compliance trabalhista e soluções eficazes, o
-            escritório garante segurança jurídica, redução de litígios e suporte
-            completo na gestão de pessoas, porque para nós a empresa forte é
-            aquela que atua com segurança, responsabilidade e total respaldo
-            legal.
+            Com proteção total, estratégia sólida e compromisso inabalável, o
+            escritório luta até o fim para garantir respeito, direitos e justiça
+            real para quem faz o trabalho acontecer, porque para nós os direitos
+            do trabalhador não se negociam — o seu direito é a nossa causa.
           </p>
         ),
       },
