@@ -44,11 +44,11 @@ export default function Hero({ imagemFocadaBackground }) {
           </MotionDivDownToUp>
           {imagemFocadaBackground && (
             <MotionDivDownToUp className="flex justify-center w-full mb-8">
-              <div
-                style={{
-                  backgroundImage: `url(${content.hero.imagens.focadaHero})`,
-                }}
-                className="bg-center bg-no-repeat bg-cover h-[400px] w-[450px] md:h-[600px] md:w-[600px] lg:h-[500px] lg:w-[500px]"
+              <img
+                src={content.hero.imagens.focadaHero}
+                fetchpriority="high"
+                alt=""
+                className="object-cover h-[400px] w-[450px] md:h-[600px] md:w-[600px] lg:h-[500px] lg:w-[500px]"
               />
             </MotionDivDownToUp>
           )}
