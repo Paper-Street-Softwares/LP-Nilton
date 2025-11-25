@@ -11,6 +11,8 @@ export default function Hero({ imagemFocadaBackground }) {
             src={content.hero.imagens.backgroundHero}
             alt="Imagem ilustrativa"
             className="object-cover w-full h-full"
+            width={1600}
+            height={800}
           />
           <div className="absolute inset-0 bg-black/90 lg:bg-black/85"></div>
         </div>
