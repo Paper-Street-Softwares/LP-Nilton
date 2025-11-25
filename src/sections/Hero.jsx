@@ -1,6 +1,7 @@
 import content from "../content/Content";
 import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
+import imgMobile from "../assets/backgroundMobile.webp";
 
 export default function Hero({ imagemFocadaBackground }) {
   return (
@@ -8,15 +9,7 @@ export default function Hero({ imagemFocadaBackground }) {
       <div className="relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
           <picture>
-            <source
-              srcSet="
-              ../assets/background-640.webp 640,
-                ../assets/background-1024.webp 1024,
-                ../assets/background-1440.webp 1440,
-               ../assets/background-1920.webp 1920
-              "
-              type="image/webp"
-            />
+            <source media="(max-width:430px )" srcset={imgMobile} />
 
             <img
               src={content.hero.imagens.backgroundHero}
