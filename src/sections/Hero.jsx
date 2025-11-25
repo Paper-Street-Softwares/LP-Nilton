@@ -47,7 +47,10 @@ export default function Hero({ imagemFocadaBackground }) {
               <img
                 src={content.hero.imagens.focadaHero}
                 fetchpriority="high"
-                alt=""
+                decoding="sync"
+                width="450"
+                height="400"
+                alt="imagem da Pessoa"
                 className="object-cover h-[400px] w-[450px] md:h-[600px] md:w-[600px] lg:h-[500px] lg:w-[500px]"
               />
             </MotionDivDownToUp>
