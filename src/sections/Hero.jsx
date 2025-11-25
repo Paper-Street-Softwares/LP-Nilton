@@ -36,8 +36,8 @@ export default function Hero({ imagemFocadaBackground }) {
                   src={content.hero.imagens.logo}
                   alt="Logomarca"
                   className="w-[288px] phone2:w-[330px] phone3:w-[350px] h-auto mb-6"
-                  width={495}
-                  height={274}
+                  width={360}
+                  height={199}
                 />
               </picture>
             </div>
