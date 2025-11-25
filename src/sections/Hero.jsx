@@ -2,6 +2,7 @@ import content from "../content/Content";
 import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 import imgMobile from "../assets/backgroundMobile.webp";
+import logoMobile from "../assets/logoMobile.webp";
 
 export default function Hero({ imagemFocadaBackground }) {
   return (
@@ -10,7 +11,6 @@ export default function Hero({ imagemFocadaBackground }) {
         <div className="absolute inset-0 z-0">
           <picture>
             <source media="(max-width:430px )" srcset={imgMobile} />
-
             <img
               src={content.hero.imagens.backgroundHero}
               alt="Imagem ilustrativa"
@@ -30,13 +30,16 @@ export default function Hero({ imagemFocadaBackground }) {
         >
           <MotionDivDownToUp>
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
-              <img
-                src={content.hero.imagens.logo}
-                alt="Logomarca"
-                className="w-[288px] phone2:w-[330px] phone3:w-[350px] h-auto mb-6"
-                width={495}
-                height={274}
-              />
+              <picture>
+                <source media="(max-width:375px )" srcset={logoMobile} />
+                <img
+                  src={content.hero.imagens.logo}
+                  alt="Logomarca"
+                  className="w-[288px] phone2:w-[330px] phone3:w-[350px] h-auto mb-6"
+                  width={495}
+                  height={274}
+                />
+              </picture>
             </div>
           </MotionDivDownToUp>
           {imagemFocadaBackground && (
