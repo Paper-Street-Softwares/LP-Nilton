@@ -52,11 +52,13 @@ export default function Footer() {
               </h2>
             </MotionDivDownToUp>
 
-            <MotionDivDownToUp>
+            {/* <MotionDivDownToUp>
               <p className="max-w-2xl mx-auto mt-4 mb-16 text-lg text-fontLighter">
                 {content.footer.texts.subtitulo}
               </p>
-            </MotionDivDownToUp>
+            </MotionDivDownToUp> */}
+
+            <div className="mt-4 mb-16"></div>
 
             <CtaButton
               icon={content.util.svgWhatsapp}
@@ -78,9 +80,13 @@ export default function Footer() {
 
             <div className="mt-12 text-sm text-fontLighter/50 ">
               {content.footer.texts.direitosReservados}{" "}
-              <a onClick={abrirModal} className="underline cursor-pointer">
+              <button
+                onClick={abrirModal}
+                aria-label="Abre um Modal com os termos da Política de privacidade"
+                className="underline cursor-pointer"
+              >
                 Políticas de privacidade
-              </a>{" "}
+              </button>{" "}
               - Desenvolvido com excelência por{" "}
               <a
                 target="_blank"
