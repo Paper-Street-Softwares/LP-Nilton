@@ -48,10 +48,10 @@ export default function Hero({ imagemFocadaBackground }) {
                 src="/hero.webp"
                 fetchpriority="high"
                 decoding="sync"
-                width="450"
-                height="400"
+                width={450}
+                height={400}
                 alt="imagem da Pessoa"
-                className=" h-full"
+                className="w-full max-w-[450px] h-auto object-cover"
               />
             </MotionDivDownToUp>
           )}
