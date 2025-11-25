@@ -23,6 +23,8 @@ export default function About() {
                       src={content.about.imagem.imgPessoa}
                       alt="Imagem ilustrativa"
                       className="w-[90%] phone3:w-[295px] tablet1:w-[400px] max-w-[480px] h-auto"
+                      width={400}
+                      height={472}
                     />
                   </div>
                 </MotionDivDownToUp>
