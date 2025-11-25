@@ -15,7 +15,7 @@ function CardTransformacao({ data, styles }) {
           {etiqueta}
         </span>
       </div>
-      <ul className="space-y-4">
+      <ul className="space-y-4 font-secondFont">
         {pontos
           .filter((ponto) => ponto.index !== 0)
           .map((ponto) => (

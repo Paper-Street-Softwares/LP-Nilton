@@ -27,7 +27,7 @@ export default function Footer() {
         <SectionArea>
           <div className="relative z-10 mx-auto text-center max-w-7xl ">
             <MotionDivDownToUp>
-              <span className="inline-flex items-center rounded-full bg-darker text-lighter font-semibold text-xs px-4 py-1.5 uppercase tracking-wider ring-1 ring-inset ring-white/10">
+              <span className="inline-flex items-center rounded-full bg-darker text-lighter font-semibold font-secondFont text-xs px-4 py-1.5 uppercase tracking-wider ring-1 ring-inset ring-white/10">
                 <svg
                   className="w-4 h-4 mr-1.5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -72,13 +72,13 @@ export default function Footer() {
             </MotionDivDownToUp>
 
             <MotionDivDownToUp>
-              <p className="mt-6 text-sm text-fontLighter/50">
+              <p className="mt-6 text-sm text-fontLighter/50 font-secondFont">
                 {content.footer.pontos.ponto1} • {content.footer.pontos.ponto2}{" "}
                 • {content.footer.pontos.ponto3}
               </p>
             </MotionDivDownToUp>
 
-            <div className="mt-12 text-sm text-fontLighter/50 ">
+            <div className="mt-12 text-sm text-fontLighter/50 font-secondFont ">
               {content.footer.texts.direitosReservados}{" "}
               <button
                 onClick={abrirModal}

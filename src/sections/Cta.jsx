@@ -19,7 +19,7 @@ export default function Cta() {
         <SectionArea>
           <div className="relative z-10 mx-auto text-center max-w-7xl">
             <MotionDivDownToUp>
-              <span className="inline-flex items-center rounded-full bg-darker text-lighter font-semibold text-xs px-4 py-1.5 uppercase tracking-wider ring-1 ring-inset ring-white/10">
+              <span className="inline-flex items-center rounded-full bg-darker text-lighter font-semibold font-secondFont text-xs px-4 py-1.5 uppercase tracking-wider ring-1 ring-inset ring-white/10">
                 <svg
                   className="w-4 h-4 mr-1.5"
                   xmlns="http://www.w3.org/2000/svg"
@@ -65,7 +65,7 @@ export default function Cta() {
                             />
                           </svg>
 
-                          <span className="ml-3 text-lg text-fontLighter">
+                          <span className="ml-3 text-lg text-fontLighter font-secondFont">
                             {ponto.texto}
                           </span>
                         </li>
