@@ -7,13 +7,26 @@ export default function Hero({ imagemFocadaBackground }) {
     <>
       <div className="relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <img
-            src={content.hero.imagens.backgroundHero}
-            alt="Imagem ilustrativa"
-            className="object-cover w-full h-full"
-            width={1600}
-            height={800}
-          />
+          <picture>
+            <source
+              srcSet="
+              ../assets/background-640.webp 640,
+                ../assets/background-1024.webp 1024,
+                ../assets/background-1440.webp 1440,
+               ../assets/background-1920.webp 1920
+              "
+              type="image/webp"
+            />
+
+            <img
+              src={content.hero.imagens.backgroundHero}
+              alt="Imagem ilustrativa"
+              className="object-cover w-full h-full"
+              width={1600}
+              height={800}
+            />
+          </picture>
+
           <div className="absolute inset-0 bg-black/90 lg:bg-black/85"></div>
         </div>
 
