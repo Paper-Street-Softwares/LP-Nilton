@@ -52,7 +52,7 @@ export default function About() {
                                 </svg>
                               </div>
 
-                              <span className="ml-3 text-gray-700 text-md">
+                              <span className="ml-3 text-gray-700 text-md font-secondFont">
                                 {ponto.texto}
                               </span>
                             </li>
