@@ -36,8 +36,8 @@ export default function Hero({ imagemFocadaBackground }) {
                   src={content.hero.imagens.logo}
                   alt="Logomarca"
                   className="w-full h-auto mb-6"
-                  width={360}
-                  height={199}
+                  width={540}
+                  height={299}
                 />
               </picture>
             </div>
@@ -45,7 +45,7 @@ export default function Hero({ imagemFocadaBackground }) {
           {imagemFocadaBackground && (
             <MotionDivDownToUp className="flex justify-center w-full mb-8">
               <img
-                src={content.hero.imagens.focadaHero}
+                src="/hero.webp"
                 fetchpriority="high"
                 decoding="sync"
                 width="450"
