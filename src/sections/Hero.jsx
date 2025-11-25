@@ -1,19 +1,25 @@
 import content from "../content/Content";
 import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
+import imgMobile from "../assets/backgroundMobile.webp";
 
 export default function Hero({ imagemFocadaBackground }) {
   return (
     <>
       <div className="relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
-          <img
-            src={content.hero.imagens.backgroundHero}
-            alt="Imagem ilustrativa"
-            className="object-cover w-full h-full"
-            width={1600}
-            height={800}
-          />
+          <picture>
+            <source media="(max-width:430px )" srcset={imgMobile} />
+
+            <img
+              src={content.hero.imagens.backgroundHero}
+              alt="Imagem ilustrativa"
+              className="object-cover w-full h-full"
+              width={1600}
+              height={800}
+            />
+          </picture>
+
           <div className="absolute inset-0 bg-black/90 lg:bg-black/85"></div>
         </div>
 
