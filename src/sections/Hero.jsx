@@ -29,18 +29,16 @@ export default function Hero({ imagemFocadaBackground }) {
           } lg:pb-28 text-center text-fontLighter`}
         >
           <MotionDivDownToUp>
-            <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
-              <picture>
-                <source media="(max-width:375px )" srcset={logoMobile} />
-                <img
-                  src={content.hero.imagens.logo}
-                  alt="Logomarca"
-                  className="w-full h-auto mb-6"
-                  width={540}
-                  height={299}
-                />
-              </picture>
-            </div>
+            <picture>
+              <source media="(max-width:375px)" srcSet={logoMobile} />
+              <img
+                src="/logo.webp"
+                alt="Logomarca"
+                className="w-full h-auto mb-6"
+                width={360}
+                height={199}
+              />
+            </picture>
           </MotionDivDownToUp>
           {imagemFocadaBackground && (
             <MotionDivDownToUp className="flex justify-center w-full mb-8">
