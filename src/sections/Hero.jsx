@@ -36,9 +36,7 @@ export default function Hero({ imagemFocadaBackground }) {
                 <img
                   src={content.hero.imagens.logo}
                   alt="Logomarca"
-                  className="w-full h-auto mb-6"
-                  width={540}
-                  height={299}
+                  className="w-full max-w-[540px] aspect-[540/299] mb-6"
                 />
               </picture>
             </div>
@@ -54,7 +52,7 @@ export default function Hero({ imagemFocadaBackground }) {
                   width={450}
                   height={400}
                   alt="imagem da Pessoa"
-                  className="w-full max-w-[450px] h-auto object-cover aspect-auto"
+                  className="w-full max-w-[450px] aspect-[9/8] object-cover"
                 />
               </picture>
             </div>
