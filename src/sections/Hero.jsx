@@ -5,6 +5,7 @@ import imgMobile from "../assets/backgroundMobile.webp";
 import logoMobile from "../assets/logoMobile.webp";
 import heroMobile from "../assets/heroMobile.webp";
 
+
 export default function Hero({ imagemFocadaBackground }) {
   return (
     <>
@@ -30,16 +31,18 @@ export default function Hero({ imagemFocadaBackground }) {
           } lg:pb-28 text-center text-fontLighter`}
         >
           <MotionDivDownToUp>
-            <picture>
-              <source media="(max-width:375px)" srcSet={logoMobile} />
-              <img
-                src="/logo.webp"
-                alt="Logomarca"
-                className="w-full h-auto mb-6"
-                width={360}
-                height={199}
-              />
-            </picture>
+            <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
+              <picture>
+                <source media="(max-width:375px)" srcSet={logoMobile} />
+                <img
+                  src={content.hero.imagens.logo}
+                  alt="Logomarca"
+                  className="w-full h-auto mb-6"
+                  width={540}
+                  height={299}
+                />
+              </picture>
+            </div>
           </MotionDivDownToUp>
           {imagemFocadaBackground && (
             <MotionDivDownToUp className="flex justify-center w-full mb-8">
@@ -53,7 +56,7 @@ export default function Hero({ imagemFocadaBackground }) {
                   width={450}
                   height={400}
                   alt="imagem da Pessoa"
-                  className="w-full max-w-[450px] h-auto object-cover"
+                  className="w-full max-w-[450px] h-auto object-cover aspect-auto"
                 />
               </picture>
             </MotionDivDownToUp>
