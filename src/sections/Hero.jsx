@@ -3,6 +3,7 @@ import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 import imgMobile from "../assets/backgroundMobile.webp";
 import logoMobile from "../assets/logoMobile.webp";
+import logoTablet from "../assets/logoTablet.webp";
 import heroMobile from "../assets/heroMobile.webp";
 
 export default function Hero({ imagemFocadaBackground }) {
@@ -11,7 +12,10 @@ export default function Hero({ imagemFocadaBackground }) {
       <div className="relative overflow-hidden bg-black h-auto">
         <div className="absolute inset-0 z-0">
           <picture>
-            <source media="(max-width:430px)" srcset="/backgroundMobile.webp" />
+            <source
+              media="(max-width: 430px)"
+              srcset="/backgroundMobile.webp"
+            />
             <img
               src={content.hero.imagens.backgroundHero}
               alt="Imagem ilustrativa"
@@ -32,11 +36,16 @@ export default function Hero({ imagemFocadaBackground }) {
           <div>
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
               <picture>
-                <source media="(max-width:375px)" srcSet={logoMobile} />
+                <source
+                  media="(max-width: 375px)"
+                  srcSet={logoMobile}
+                  type="image/webp"
+                />
+
                 <img
                   src={content.hero.imagens.logo}
                   alt="Logomarca"
-                  className="w-full aspect-auto mb-6 "
+                  className="w-full aspect-auto mb-6"
                   width={360}
                   height={200}
                 />
@@ -46,7 +55,7 @@ export default function Hero({ imagemFocadaBackground }) {
           {imagemFocadaBackground && (
             <div className="flex justify-center w-full mb-8">
               <picture>
-                <source media="(max-width:375px)" srcSet={heroMobile} />
+                <source media="(max-width: 375px)" srcSet={heroMobile} />
                 <img
                   src="/hero.webp"
                   fetchpriority="high"
