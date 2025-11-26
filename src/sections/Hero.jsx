@@ -3,7 +3,6 @@ import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 import imgMobile from "../assets/backgroundMobile.webp";
 import logoMobile from "../assets/logoMobile.webp";
-import logoTablet from "../assets/logoTablet.webp";
 import heroMobile from "../assets/heroMobile.webp";
 
 export default function Hero({ imagemFocadaBackground }) {
@@ -37,9 +36,10 @@ export default function Hero({ imagemFocadaBackground }) {
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
               <picture>
                 <source
-                  media="(max-width: 375px)"
+                  media="(max-width: 640px)"
                   srcSet={logoMobile}
-                  type="image/webp"
+                  width={330}
+                  height={183}
                 />
 
                 <img
