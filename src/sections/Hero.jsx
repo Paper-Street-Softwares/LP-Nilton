@@ -5,7 +5,6 @@ import imgMobile from "../assets/backgroundMobile.webp";
 import logoMobile from "../assets/logoMobile.webp";
 import heroMobile from "../assets/heroMobile.webp";
 
-
 export default function Hero({ imagemFocadaBackground }) {
   return (
     <>
@@ -45,7 +44,7 @@ export default function Hero({ imagemFocadaBackground }) {
             </div>
           </MotionDivDownToUp>
           {imagemFocadaBackground && (
-            <MotionDivDownToUp className="flex justify-center w-full mb-8">
+            <div className="flex justify-center w-full mb-8">
               <picture>
                 <source media="(max-width:375px)" srcSet={heroMobile} />
 
@@ -59,7 +58,7 @@ export default function Hero({ imagemFocadaBackground }) {
                   className="w-full max-w-[450px] h-auto object-cover aspect-auto"
                 />
               </picture>
-            </MotionDivDownToUp>
+            </div>
           )}
           <MotionDivDownToUp>
             <span className="inline-flex mb-6 items-center capitalize rounded-full font-secondFont bg-black/60 px-4 py-1.5 text-sm font-medium text-fontLighter/80 ring-1 ring-inset ring-neutral-400">
