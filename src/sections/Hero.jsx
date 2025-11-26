@@ -11,10 +11,7 @@ export default function Hero({ imagemFocadaBackground }) {
       <div className="relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
           <picture>
-            <source
-              media="(max-width:430px )"
-              srcset="/backgroundMobile.webp"
-            />
+            <source media="(max-width:430px)" srcset="/backgroundMobile.webp" />
             <img
               src={content.hero.imagens.backgroundHero}
               alt="Imagem ilustrativa"
