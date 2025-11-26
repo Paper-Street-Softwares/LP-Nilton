@@ -32,11 +32,25 @@ export default function Hero({ imagemFocadaBackground }) {
           <div>
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
               <picture>
-                <source media="(max-width:375px)" srcSet={logoMobile} />
+                {/* Para telas 375px */}
+                <source
+                  media="(max-width: 375px)"
+                  srcSet={logoMobile}
+                  type="image/webp"
+                />
+
+                {/* Para telas maiores de 640px */}
+                <source
+                  media="(min-width: 640px)"
+                  srcSet={logoMobile}
+                  type="image/webp"
+                />
+
+                {/* Fallback */}
                 <img
                   src={content.hero.imagens.logo}
                   alt="Logomarca"
-                  className="w-full aspect-auto mb-6 "
+                  className="w-full aspect-auto mb-6"
                   width={360}
                   height={200}
                 />
