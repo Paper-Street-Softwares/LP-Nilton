@@ -11,7 +11,10 @@ export default function Hero({ imagemFocadaBackground }) {
       <div className="relative overflow-hidden bg-black">
         <div className="absolute inset-0 z-0">
           <picture>
-            <source media="(max-width:430px )" srcset={imgMobile} />
+            <source
+              media="(max-width:430px )"
+              srcset="/backgroundMobile.webp"
+            />
             <img
               src={content.hero.imagens.backgroundHero}
               alt="Imagem ilustrativa"
@@ -29,7 +32,7 @@ export default function Hero({ imagemFocadaBackground }) {
             imagemFocadaBackground && "lg:pt-10"
           } lg:pb-28 text-center text-fontLighter`}
         >
-          <MotionDivDownToUp>
+          <div>
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
               <picture>
                 <source media="(max-width:375px)" srcSet={logoMobile} />
@@ -42,12 +45,11 @@ export default function Hero({ imagemFocadaBackground }) {
                 />
               </picture>
             </div>
-          </MotionDivDownToUp>
+          </div>
           {imagemFocadaBackground && (
             <div className="flex justify-center w-full mb-8">
               <picture>
                 <source media="(max-width:375px)" srcSet={heroMobile} />
-
                 <img
                   src="/hero.webp"
                   fetchpriority="high"
@@ -60,21 +62,21 @@ export default function Hero({ imagemFocadaBackground }) {
               </picture>
             </div>
           )}
-          <MotionDivDownToUp>
+          <div>
             <span className="inline-flex mb-6 items-center capitalize rounded-full font-secondFont bg-black/60 px-4 py-1.5 text-sm font-medium text-fontLighter/80 ring-1 ring-inset ring-neutral-400">
               {content.hero.texts.etiqueta}
             </span>
-          </MotionDivDownToUp>
-          <MotionDivDownToUp>
+          </div>
+          <div>
             <h1 className="text-3xl font-medium tracking-tight capitalize sm:text-5xl lg:text-6xl font-mainFont">
               {content.hero.texts.titulo}
             </h1>
-          </MotionDivDownToUp>
-          <MotionDivDownToUp>
+          </div>
+          <div>
             <p className="max-w-3xl mx-auto mt-6 text-lg sm:text-xl text-fontLighter/85 font-secondFont">
               {content.hero.texts.subtitulo}
             </p>
-          </MotionDivDownToUp>
+          </div>
           <div className="flex flex-col items-center justify-center mt-10 space-y-4 sm:flex-row sm:space-y-0 sm:space-x-4">
             <CtaButton
               icon={content.util.svgWhatsapp}
