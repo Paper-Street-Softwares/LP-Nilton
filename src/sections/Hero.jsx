@@ -8,7 +8,7 @@ import heroMobile from "../assets/heroMobile.webp";
 export default function Hero({ imagemFocadaBackground }) {
   return (
     <>
-      <div className="relative overflow-hidden bg-black">
+      <div className="relative overflow-hidden bg-black h-auto">
         <div className="absolute inset-0 z-0">
           <picture>
             <source media="(max-width:430px)" srcset="/backgroundMobile.webp" />
@@ -17,7 +17,7 @@ export default function Hero({ imagemFocadaBackground }) {
               alt="Imagem ilustrativa"
               className="object-cover w-full h-full"
               width={1600}
-              height={800}
+              height={1300}
             />
           </picture>
 
@@ -36,7 +36,9 @@ export default function Hero({ imagemFocadaBackground }) {
                 <img
                   src={content.hero.imagens.logo}
                   alt="Logomarca"
-                  className="w-full max-w-[540px] aspect-[540/299] mb-6"
+                  className="w-full max-w-[540px] aspect-[37/20] mb-6 "
+                  width={370}
+                  height={200}
                 />
               </picture>
             </div>
@@ -50,9 +52,9 @@ export default function Hero({ imagemFocadaBackground }) {
                   fetchpriority="high"
                   decoding="sync"
                   width={450}
-                  height={400}
+                  height={500}
                   alt="imagem da Pessoa"
-                  className="w-full max-w-[450px] aspect-[9/8] object-cover"
+                  className="w-full max-w-[450px] aspect-[9/10] object-cover"
                 />
               </picture>
             </div>
