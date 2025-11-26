@@ -1,20 +1,25 @@
+import { Suspense } from "react";
 import WhatsappFloatingButton from "../components/buttons/WhatsappFloatingButton";
-import About from "../sections/About";
-import Cta from "../sections/Cta";
-import Features from "../sections/Features";
 import Footer from "../sections/Footer";
 import Hero from "../sections/Hero";
-import Transformacao from "../sections/Transformacao";
+import React from "react";
+
+const About = React.lazy(() => import("../sections/About"));
+const Cta = React.lazy(() => import("../sections/Cta"));
+const Features = React.lazy(() => import("../sections/Features"));
+const Transformacao = React.lazy(() => import("../sections/Transformacao"));
 
 export default function Index() {
   return (
     <>
       <Hero imagemFocadaBackground={true} />
       <main>
-        <Features />
-        <Transformacao />
-        <Cta />
-        <About />
+        <Suspense fallback={<div className="h-screen bg-white"></div>}>
+          <Features />
+          <Transformacao />
+          <Cta />
+          <About />
+        </Suspense>
       </main>
       <Footer />
       <WhatsappFloatingButton />
