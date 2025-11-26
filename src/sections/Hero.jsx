@@ -3,6 +3,7 @@ import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
 import CtaButton from "../components/buttons/CtaButton";
 import imgMobile from "../assets/backgroundMobile.webp";
 import logoMobile from "../assets/logoMobile.webp";
+import heroMobile from "../assets/heroMobile.webp";
 
 export default function Hero({ imagemFocadaBackground }) {
   return (
@@ -42,15 +43,19 @@ export default function Hero({ imagemFocadaBackground }) {
           </MotionDivDownToUp>
           {imagemFocadaBackground && (
             <MotionDivDownToUp className="flex justify-center w-full mb-8">
-              <img
-                src="/hero.webp"
-                fetchpriority="high"
-                decoding="sync"
-                width={450}
-                height={400}
-                alt="imagem da Pessoa"
-                className="w-full max-w-[450px] h-auto object-cover"
-              />
+              <picture>
+                <source media="(max-width:375px)" srcSet={heroMobile} />
+
+                <img
+                  src="/hero.webp"
+                  fetchpriority="high"
+                  decoding="sync"
+                  width={450}
+                  height={400}
+                  alt="imagem da Pessoa"
+                  className="w-full max-w-[450px] h-auto object-cover"
+                />
+              </picture>
             </MotionDivDownToUp>
           )}
           <MotionDivDownToUp>
