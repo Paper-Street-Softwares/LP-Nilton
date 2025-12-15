@@ -1,4 +1,4 @@
-import MotionDivDownToUp from "../animations/MotionDownToUp";
+import MotionDivDownToUp from '../animations/MotionDownToUp'
 
 export default function CtaButton({
   link,
@@ -8,17 +8,17 @@ export default function CtaButton({
   reflexAnimation = true,
 }) {
   const themes = {
-    light: "bg-lighter text-fontDarker ",
-    dark: "bg-darker text-fontLighter",
-  };
+    light: 'bg-lighter text-fontDarker ',
+    dark: 'bg-darker text-fontLighter',
+  }
 
   const shineThemes = {
-    light: "bg-white/20",
-    dark: "bg-white/10",
-  };
+    light: 'bg-white/20',
+    dark: 'bg-white/10',
+  }
 
-  const colors = themes[colorMode] || themes.light;
-  const shineColor = shineThemes[colorMode] || shineThemes.light;
+  const colors = themes[colorMode] || themes.light
+  const shineColor = shineThemes[colorMode] || shineThemes.light
 
   return (
     <MotionDivDownToUp className="inline-block">
@@ -33,7 +33,7 @@ export default function CtaButton({
           justify-center
           ${colors} 
           font-normal font-secondFont px-6 py-3 rounded-lg text-lg 
-          transition-all hover:scale-105 shadow-lg gap-3 text-paragraph4
+          transition-all hover:scale-105 shadow-lg gap-3 text-[12px] phone3:text-paragraph3 desktop1:text-paragraph4
           min-w-[10px] 
           text-center
         `}
@@ -51,10 +51,10 @@ export default function CtaButton({
         )}
 
         <span className="relative z-10 flex items-center gap-3 capitalize">
-          {icon}
+          <span> {icon}</span>
           {label}
         </span>
       </a>
     </MotionDivDownToUp>
-  );
+  )
 }

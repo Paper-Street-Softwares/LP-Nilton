@@ -14,11 +14,11 @@ import imgAbout from '../assets/about.webp'
 import imgBackground from '../assets/background.webp'
 
 export const infos = {
-  namePessoa: 'Dra. Viviane',
+  namePessoa: 'A_Definir',
   telefone: {
     ddd: '11',
-    primeiraParte: '98929',
-    segundaParte: '1806',
+    primeiraParte: '96358',
+    segundaParte: '7483',
   },
   mensagemWhatsapp:
     'Olá! Vim através do site e gostaria de tirar algumas dúvidas sobre meu caso.',
@@ -32,32 +32,32 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta: 'ADVOGADA TRIBUTARISTA EM SÃO PAULO - SP',
+      etiqueta: 'A_Definir',
       titulo: (
         <p>
-          Transformo complexidade em
-          <strong className="text-lighter"> paz</strong>{' '}
+          A_Definir
+          <br />
+          A_Definir<strong className="text-lighter"> A_Definir</strong>{' '}
+          A_Definir
         </p>
       ),
-      subtitulo:
-        'Seja no Tributário, Empresarial ou na busca pelo seu Previdenciário. Meu foco é a segurança do seu patrimônio e futuro.',
-      labelBotaoPrincial: 'Falar com a Advogada Especialista',
-      labelBotaoSecundario: 'Agendar Horário  ',
+      subtitulo: 'A_Definir',
+      labelBotaoPrincial: 'A_Definir',
+      labelBotaoSecundario: 'A_Definir',
     },
   },
 
   features: {
     texts: {
-      titulo: 'Minha Atuação: Estratégia e Clareza',
-      labelBotaoPrincial: 'Entre em Contato Para Conversarmos',
+      titulo: 'A_Definir',
+      labelBotaoPrincial: 'A_Definir',
     },
     cards: [
       {
         index: 1,
         icone: BriefcaseBusiness,
-        titulo: 'Direito Tributário',
-        descricao:
-          'Elaboro o planejamento tributário para que você obtenha a economia fiscal legal e proteja seu patrimônio empresarial.',
+        titulo: 'A_Definir',
+        descricao: 'A_Definir',
         labelBotaoModal: 'Saiba mais',
         textoModal: (
           <p>
@@ -70,9 +70,8 @@ const content = {
       {
         index: 2,
         icone: Hammer,
-        titulo: 'Direito Empresarial',
-        descricao:
-          'Atuo na estruturação societária e contratual para oferecer segurança jurídica, permitindo que seu negócio se desenvolva com tranquilidade',
+        titulo: 'A_Definir',
+        descricao: 'A_Definir',
         labelBotaoModal: 'Saiba mais',
         textoModal: (
           <p>
@@ -86,9 +85,8 @@ const content = {
       {
         index: 3,
         icone: Users,
-        titulo: 'Direito Previdenciário',
-        descricao:
-          'Analiso seu histórico contributivo e busco o direito à aposentadoria ou benefício justo, lidando com os pedidos negados do INSS.',
+        titulo: 'A_Definir',
+        descricao: 'A_Definir',
         labelBotaoModal: 'Saiba mais',
         textoModal: (
           <p>
@@ -102,9 +100,8 @@ const content = {
       {
         index: 4,
         icone: Tag,
-        titulo: 'Direito Civil',
-        descricao:
-          'Ofereço assessoria em questões de herança, família e contratos, protegendo legalmente o seu bem-estar e patrimônio.',
+        titulo: 'A_Definir',
+        descricao: 'A_Definir',
         labelBotaoModal: 'Saiba mais',
         textoModal: (
           <p>
@@ -120,30 +117,23 @@ const content = {
 
   transformacao: {
     texts: {
-      titulo: 'Da Incerteza à Estratégia Jurídica',
-      labelBotaoPrincial: 'Agendar análise estratégica do meu caso',
+      titulo: 'A_Definir',
+      labelBotaoPrincial: 'A_Definir',
     },
     antes: {
       etiqueta: 'ANTES',
       pontos: [
         {
           index: 1,
-          texto: 'O desconhecimento sobre leis afeta sua rotina e patrimônio',
+          texto: 'A_Definir',
         },
         {
           index: 2,
-          texto:
-            'Há falta de clareza sobre riscos fiscais ou a viabilidade do seu direito',
+          texto: 'A_Definir',
         },
         {
           index: 3,
-          texto:
-            'Você perde tempo e recursos em procedimentos e burocracias complexas',
-        },
-        {
-          index: 4,
-          texto:
-            'A incerteza jurídica causa insegurança e falta de planejamento para o futuro',
+          texto: 'A_Definir',
         },
       ],
     },
@@ -153,23 +143,15 @@ const content = {
       pontos: [
         {
           index: 1,
-          texto:
-            'Eu realizo a análise aprofundada do seu caso e elaboro o planejamento estratégico',
+          texto: 'A_Definir',
         },
         {
           index: 2,
-          texto:
-            'Você recebe informações claras e acompanhamento direto para entender o andamento processual',
+          texto: 'A_Definir',
         },
         {
           index: 3,
-          texto:
-            'Seus procedimentos e documentos são revisados e organizados com rigor técnico',
-        },
-        {
-          index: 4,
-          texto:
-            'Você obtém segurança e clareza para tomar decisões importantes sobre seu patrimônio e futuro',
+          texto: 'A_Definir',
         },
       ],
     },
@@ -180,22 +162,22 @@ const content = {
       background: imgBackground,
     },
     texts: {
-      etiqueta: 'NÃO ESPERE NEM MAIS UM SEGUNDO',
+      etiqueta: 'A_Definir',
 
       titulo: (
         <h2>
-          Pronto para iniciar sua <strong> estratégia jurídica</strong>?
+          A_Definir
+          <strong> A_Definir</strong>
         </h2>
       ),
-      labelBotaoPrincial: 'Entre em Contato Para Conversarmos',
+      labelBotaoPrincial: 'A_Definir',
     },
     pontos: [
       {
         index: 1,
         texto: (
           <p>
-            ✓ Dedicação total para traçar a
-            <strong> viabilidade e os riscos</strong> do seu caso
+            A_Definir<strong> A_Definir</strong>
           </p>
         ),
       },
@@ -203,8 +185,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            ✓ Detalhamento técnico da
-            <strong> viabilidade, riscos e etapas </strong>necessárias
+            A_Definir<strong> A_Definir </strong>A_Definir
           </p>
         ),
       },
@@ -212,8 +193,7 @@ const content = {
         index: 3,
         texto: (
           <p>
-            ✓ Atualizações transparentes sobre o em
-            <strong>andamento do seu caso </strong>tempo real
+            A_Definir <strong>A_Definir </strong>A_Definir
           </p>
         ),
       },
@@ -225,16 +205,15 @@ const content = {
       imgPessoa: imgAbout,
     },
     texts: {
-      titulo: 'PORQUE MEUS CLIENTES CONFIAM EM MIM',
-      labelBotaoPrincial: 'Falar diretamente com a advogada',
+      titulo: 'A_Definir',
+      labelBotaoPrincial: 'A_Definir',
     },
     pontos: [
       {
         index: 1,
         texto: (
           <p>
-            13 anos de <strong>vivência prática no mundo dos negócios</strong>,
-            o que proporciona uma compreensão profunda do lado do empresário.
+            A_Definir <strong>A_Definir</strong> A_Definir
           </p>
         ),
       },
@@ -242,8 +221,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Dedicação a uma assessoria jurídica{' '}
-            <strong>estratégica e focada em resultados reais.</strong>{' '}
+            A_Definir <strong>A_Definir</strong> A_Definir
           </p>
         ),
       },
@@ -251,8 +229,7 @@ const content = {
         index: 3,
         texto: (
           <p>
-            Transformar a visão de negócios em
-            <strong>segurança para o crescimento</strong> do cliente.
+            <strong>A_Definir</strong> A_Definir
           </p>
         ),
       },
@@ -260,8 +237,8 @@ const content = {
         index: 4,
         texto: (
           <p>
-            Busca constante por
-            <strong> excelência técnica</strong> na atuação como advogada.
+            A_Definir
+            <strong> A_Definir</strong>
           </p>
         ),
       },
@@ -269,8 +246,7 @@ const content = {
         index: 5,
         texto: (
           <p>
-            Ofereço uma <strong>visão 360º</strong> para a proteção patrimonial,
-            dada a diversidade de clientes.
+            A_Definir <strong>A_Definir</strong> A_Definir
           </p>
         ),
       },
@@ -282,14 +258,13 @@ const content = {
       background: imgBackground,
     },
     texts: {
-      etiqueta: 'CHEGOU A HORA DE RESOLVER',
+      etiqueta: 'A_Definir',
       titulo: (
         <h2>
-          Entre em contato e vou fazer uma <strong>análise imediata</strong> do
-          seu caso
+          A_Definir <strong>A_Definir</strong> A_Definir
         </h2>
       ),
-      labelBotaoPrincial: 'Falar comigo agora',
+      labelBotaoPrincial: 'A_Definir',
       direitosReservados: `2025 • ${infos.namePessoa} • Todos os direitos reservados • `,
       desenvolvidoPor: 'Desenvolvido com excelência por Paper Street',
       privacidade: (
