@@ -1,9 +1,9 @@
-import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
-import CtaButton from "../components/buttons/CtaButton";
-import CardFeatures from "../components/cards/CardFeatures";
-import SectionArea from "../components/sectionElements/SectionArea";
-import SectionHeader from "../components/sectionElements/SectionHeader.jsx";
-import content from "../content/Content";
+import MotionDivDownToUp from '../components/animations/MotionDownToUp.jsx'
+import CtaButton from '../components/buttons/CtaButton'
+import CardFeatures from '../components/cards/CardFeatures'
+import SectionArea from '../components/sectionElements/SectionArea'
+import SectionHeader from '../components/sectionElements/SectionHeader.jsx'
+import content from '../content/Content'
 
 export default function Features() {
   return (
@@ -17,7 +17,7 @@ export default function Features() {
               {content.features.cards
                 .filter((card) => card.index !== 0)
                 .map((card) => (
-                  <CardFeatures modal={true} key={card.index} {...card} />
+                  <CardFeatures modal={false} key={card.index} {...card} />
                 ))}
             </div>
 
@@ -31,5 +31,5 @@ export default function Features() {
         </SectionArea>
       </div>
     </>
-  );
+  )
 }
