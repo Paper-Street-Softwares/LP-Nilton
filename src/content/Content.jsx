@@ -7,21 +7,21 @@ import {
   Angry,
   FileX,
   Hammer,
-} from "lucide-react";
-import imgLogo from "../assets/logo.webp";
-import imgHero from "../assets/hero.webp";
-import imgAbout from "../assets/about.webp";
-import imgBackground from "../assets/background.webp";
+} from 'lucide-react'
+import imgLogo from '../assets/logo.webp'
+import imgHero from '../assets/hero.webp'
+import imgAbout from '../assets/about.webp'
+import imgBackground from '../assets/background.webp'
 
 export const infos = {
   telefone: {
-    ddd: "11",
-    primeiraParte: "96358",
-    segundaParte: "7483",
+    ddd: '11',
+    primeiraParte: '96358',
+    segundaParte: '7483',
   },
   mensagemWhatsapp:
-    "Olá! Vim através do site e gostaria de tirar algumas dúvidas sobre meu caso.",
-};
+    'Olá! Vim através do site e gostaria de tirar algumas dúvidas sobre meu caso.',
+}
 
 const content = {
   hero: {
@@ -31,111 +31,83 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta:
-        "⚖️ Escritório Sediado em Santo André Com Atendimento Em Todo O ABC Paulista E Grande SP",
+      etiqueta: 'A_Definir',
       titulo: (
         <p>
-          O engenheiro constrói. O médico cuida. <br />
-          Mas é o<strong className="text-lighter"> ADVOGADO</strong> quem
-          defende seus direitos quando tudo desmorona
+          A_Definir
+          <br />
+          A_Definir<strong className="text-lighter"> A_Definir</strong>{' '}
+          A_Definir
         </p>
       ),
-      subtitulo:
-        "Atuo em demandas trabalhistas, de família e de direito do consumidor, assumindo seu caso com foco absoluto, estratégia precisa e comunicação clara, para garantir o máximo de proteção aos seus direitos e a solução mais vantajosa possível",
-      labelBotaoPrincial: "Falar com Advogado no Whatsapp",
-      labelBotaoSecundario: "Agendar Horário",
+      subtitulo: 'A_Definir',
+      labelBotaoPrincial: 'A_Definir',
+      labelBotaoSecundario: 'A_Definir',
     },
   },
 
   features: {
     texts: {
-      titulo: "Cuido do seu caso trabalhista com excelência",
-      labelBotaoPrincial: "Preciso de Ajuda com Meu Caso Trabalhista",
+      titulo: 'A_Definir',
+      labelBotaoPrincial: 'A_Definir',
     },
     cards: [
       {
         index: 1,
         icone: BriefcaseBusiness,
-        titulo: "Direito do Empregador",
-        descricao:
-          "Protejo sua empresa com consultoria, gestão de passivo trabalhista e defesa em ações judiciais.",
-        labelBotaoModal: "Saiba mais",
+        titulo: 'A_Definir',
+        descricao: 'A_Definir',
+        labelBotaoModal: 'Saiba mais',
         textoModal: (
           <p>
-            Ofereço proteção jurídica estratégica para empresas, atuando com
-            firmeza, técnica e visão preventiva para eliminar riscos, evitar
-            passivos e fortalecer as relações de trabalho.
+            A_Definir
             <br />
-            Com atuação precisa, compliance trabalhista e soluções eficazes, o
-            escritório garante segurança jurídica, redução de litígios e suporte
-            completo na gestão de pessoas, porque para nós a empresa forte é
-            aquela que atua com segurança, responsabilidade e total respaldo
-            legal.
+            A_Definir
           </p>
         ),
       },
       {
         index: 2,
         icone: Hammer,
-        titulo: "Direito do Trabalhador",
-        descricao:
-          "Corrijo demissão injusta, verbas atrasadas, assédio e outros problemas no trabalho.",
-        labelBotaoModal: "Saiba mais",
+        titulo: 'A_Definir',
+        descricao: 'A_Definir',
+        labelBotaoModal: 'Saiba mais',
         textoModal: (
           <p>
-            Firmeza e prioridade absoluta na defesa do trabalhador, sendo a voz
-            de quem enfrenta abusos e injustiças nas relações de trabalho.
+            A_Definir
             <br />
             <br />
-            Com proteção total, estratégia sólida e compromisso inabalável, o
-            escritório luta até o fim para garantir respeito, direitos e justiça
-            real para quem faz o trabalho acontecer, porque para nós os direitos
-            do trabalhador não se negociam — o seu direito é a nossa causa.
+            A_Definir
           </p>
         ),
       },
       {
         index: 3,
         icone: Users,
-        titulo: "Direito De Família",
-        descricao:
-          "Apoio em divórcio, pensão, guarda e partilha de forma humana e segura.",
-        labelBotaoModal: "Saiba mais",
+        titulo: 'A_Definir',
+        descricao: 'A_Definir',
+        labelBotaoModal: 'Saiba mais',
         textoModal: (
           <p>
-            Nilton Correia Advocacia e Assessoria Jurídica atua com firmeza,
-            equilíbrio e sensibilidade no Direito de Família, oferecendo apoio
-            jurídico estratégico em divórcios, pensão alimentícia, guarda,
-            regulamentação de visitas, partilha de bens e conflitos familiares.
+            A_Definir
             <br />
             <br />
-            Com técnica, humanidade e total compromisso com a proteção dos
-            vínculos e interesses envolvidos, o escritório busca soluções
-            justas, seguras e pacíficas, porque para nós cada família merece
-            respeito, acolhimento e a garantia integral de seus direitos.
+            A_Definir
           </p>
         ),
       },
       {
         index: 4,
         icone: Tag,
-        titulo: "Direito Do Consumidor",
-        descricao:
-          "Defendo você contra cobranças abusivas, golpes, contratos e serviços falhos.",
-        labelBotaoModal: "Saiba mais",
+        titulo: 'A_Definir',
+        descricao: 'A_Definir',
+        labelBotaoModal: 'Saiba mais',
         textoModal: (
           <p>
-            Nilton Correia Advocacia e Assessoria Jurídica atua com firmeza na
-            defesa do consumidor, enfrentando práticas abusivas, cobranças
-            indevidas, fraudes, negativas de cobertura, vícios de produtos e
-            serviços, garantindo respeito, indenização e a reparação integral
-            dos danos sofridos.
+            A_Definir
             <br />
             <br />
-            Com estratégia sólida, técnica apurada e compromisso absoluto com a
-            justiça, o escritório assegura que seus direitos sejam reconhecidos
-            e aplicados, porque para nós o consumidor merece proteção real e
-            imediata — e essa é a nossa causa.
+            A_Definir
           </p>
         ),
       },
@@ -144,47 +116,41 @@ const content = {
 
   transformacao: {
     texts: {
-      titulo: "Recupere Sua Paz Resolvendo Seus Problemas",
-      labelBotaoPrincial: "Preciso Da Ajuda De Um Advogado",
+      titulo: 'A_Definir',
+      labelBotaoPrincial: 'A_Definir',
     },
     antes: {
-      etiqueta: "ANTES",
+      etiqueta: 'ANTES',
       pontos: [
         {
           index: 1,
-          texto:
-            "Você se sente injustiçado(a) mas não sabe o que fazer pra resolver",
+          texto: 'A_Definir',
         },
         {
           index: 2,
-          texto:
-            "Sabe que precisa de um advogado mas não sente segurança pra contratar um",
+          texto: 'A_Definir',
         },
         {
           index: 3,
-          texto:
-            "Tem sempre a sensação de que deveria entrar com uma ação e com isso quitar suas dívidas",
+          texto: 'A_Definir',
         },
       ],
     },
 
     depois: {
-      etiqueta: "DEPOIS",
+      etiqueta: 'DEPOIS',
       pontos: [
         {
           index: 1,
-          texto:
-            "Você vive em paz sabendo que seu caso está em andamento, sempre sendo informado(a)",
+          texto: 'A_Definir',
         },
         {
           index: 2,
-          texto:
-            "Você fala comigo sempre que precisa, não precisando mais procurar outros profissionais",
+          texto: 'A_Definir',
         },
         {
           index: 3,
-          texto:
-            "Dorme tranquilo(a) sabendo que seu caso está em ótimas mãos e que lutarei pelo seu direito",
+          texto: 'A_Definir',
         },
       ],
     },
@@ -195,22 +161,22 @@ const content = {
       background: imgBackground,
     },
     texts: {
-      etiqueta: "Não espere nem mais um segundo",
+      etiqueta: 'A_Definir',
 
       titulo: (
         <h2>
-          Cada minuto que você não corre atrás dos seus direitos,
-          <strong> você pode estar sendo lesado(a)!</strong>
+          A_Definir
+          <strong> A_Definir</strong>
         </h2>
       ),
-      labelBotaoPrincial: "Quero Resolver Agora Mesmo",
+      labelBotaoPrincial: 'A_Definir',
     },
     pontos: [
       {
         index: 1,
         texto: (
           <p>
-            Atendimento para<strong> todo o Brasil</strong>
+            A_Definir<strong> A_Definir</strong>
           </p>
         ),
       },
@@ -218,7 +184,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Mantenho você<strong> informado </strong>do início ao fim
+            A_Definir<strong> A_Definir </strong>A_Definir
           </p>
         ),
       },
@@ -226,7 +192,7 @@ const content = {
         index: 3,
         texto: (
           <p>
-            Respondo <strong>rápido </strong>no Whatsapp
+            A_Definir <strong>A_Definir </strong>A_Definir
           </p>
         ),
       },
@@ -238,15 +204,15 @@ const content = {
       imgPessoa: imgAbout,
     },
     texts: {
-      titulo: "Por Que Meus Clientes Confiam Em Mim",
-      labelBotaoPrincial: "Fale Diretamente Comigo",
+      titulo: 'A_Definir',
+      labelBotaoPrincial: 'A_Definir',
     },
     pontos: [
       {
         index: 1,
         texto: (
           <p>
-            Respondo <strong>rápido</strong> porque sei que o seu tempo importa.
+            A_Definir <strong>A_Definir</strong> A_Definir
           </p>
         ),
       },
@@ -254,7 +220,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Estou sempre <strong>estudando</strong> todas as mudanças nas leis.
+            A_Definir <strong>A_Definir</strong> A_Definir
           </p>
         ),
       },
@@ -262,8 +228,7 @@ const content = {
         index: 3,
         texto: (
           <p>
-            <strong>Ampla experiência</strong> na Advocacia e muitos clientes
-            satisfeitos.
+            <strong>A_Definir</strong> A_Definir
           </p>
         ),
       },
@@ -271,8 +236,8 @@ const content = {
         index: 4,
         texto: (
           <p>
-            Não faço promessas falsas: Estudo seu caso e te auxilio
-            <strong> sem enrolação.</strong>
+            A_Definir
+            <strong> A_Definir</strong>
           </p>
         ),
       },
@@ -280,8 +245,7 @@ const content = {
         index: 5,
         texto: (
           <p>
-            Trabalho com os sistemas <strong>mais modernos</strong> pra ser o
-            mais ágil possível.
+            A_Definir <strong>A_Definir</strong> A_Definir
           </p>
         ),
       },
@@ -293,17 +257,16 @@ const content = {
       background: imgBackground,
     },
     texts: {
-      etiqueta: "Chegou a hora de resolver",
+      etiqueta: 'A_Definir',
       titulo: (
         <h2>
-          Entre em contato e vou fazer uma <strong>análise imediata</strong> do
-          seu caso.
+          A_Definir <strong>A_Definir</strong> A_Definir
         </h2>
       ),
-      labelBotaoPrincial: "Quero Ser Atendido Agora",
+      labelBotaoPrincial: 'A_Definir',
       direitosReservados:
-        "2025 • Dr. Nilton Correia • Todos os direitos reservados • ",
-      desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
+        '2025 • Dr. Nilton Correia • Todos os direitos reservados • ',
+      desenvolvidoPor: 'Desenvolvido com excelência por Paper Street',
       privacidade: (
         <div class="phone3:max-w-3xl mx-auto tablet1:px-6 text-gray-900 leading-relaxed font-secondFont">
           <h1 class="text-3xl font-bold mb-6">Política de Privacidade</h1>
@@ -329,7 +292,7 @@ const content = {
 
           <ul class="list-disc ml-6 mb-6 space-y-2">
             <li>
-              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{" "}
+              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{' '}
               órgão responsável pela fiscalização e aplicação da LGPD.
             </li>
 
@@ -537,9 +500,9 @@ const content = {
       ),
     },
     pontos: {
-      ponto1: "Profissionalismo",
-      ponto2: "Experiência",
-      ponto3: "Resultados",
+      ponto1: 'Profissionalismo',
+      ponto2: 'Experiência',
+      ponto3: 'Resultados',
     },
   },
 
@@ -576,6 +539,6 @@ const content = {
       </svg>
     ),
   },
-};
+}
 
-export default content;
+export default content
