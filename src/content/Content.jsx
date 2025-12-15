@@ -17,8 +17,8 @@ export const infos = {
   namePessoa: 'Dra. Viviane',
   telefone: {
     ddd: '11',
-    primeiraParte: '96358',
-    segundaParte: '7483',
+    primeiraParte: '98929',
+    segundaParte: '1806',
   },
   mensagemWhatsapp:
     'Olá! Vim através do site e gostaria de tirar algumas dúvidas sobre meu caso.',

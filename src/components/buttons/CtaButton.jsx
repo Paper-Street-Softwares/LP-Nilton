@@ -33,7 +33,7 @@ export default function CtaButton({
           justify-center
           ${colors} 
           font-normal font-secondFont px-6 py-3 rounded-lg text-lg 
-          transition-all hover:scale-105 shadow-lg gap-3 text-paragraph4
+          transition-all hover:scale-105 shadow-lg gap-3 text-[12px] phone3:text-paragraph3 desktop1:text-paragraph4
           min-w-[10px] 
           text-center
         `}
