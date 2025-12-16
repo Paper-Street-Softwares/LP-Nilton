@@ -1,9 +1,9 @@
-import content from '../content/Content'
-import MotionDivDownToUp from '../components/animations/MotionDownToUp.jsx'
-import CtaButton from '../components/buttons/CtaButton'
-import imgMobile from '../assets/backgroundMobile.webp'
-import logoMobile from '../assets/logoMobile.webp'
-import heroMobile from '../assets/heroMobile.webp'
+import content from "../content/Content";
+import MotionDivDownToUp from "../components/animations/MotionDownToUp.jsx";
+import CtaButton from "../components/buttons/CtaButton";
+import imgMobile from "../assets/backgroundMobile.webp";
+import logoMobile from "../assets/logoMobile.webp";
+import heroMobile from "../assets/heroMobile.webp";
 
 export default function Hero({ imagemFocadaBackground }) {
   return (
@@ -29,12 +29,12 @@ export default function Hero({ imagemFocadaBackground }) {
 
         <div
           className={`relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 pb-24 sm:pt-16 md:pt-28 ${
-            imagemFocadaBackground && 'lg:pt-10'
+            imagemFocadaBackground && "lg:pt-10"
           } lg:pb-28 text-center text-fontLighter`}
         >
           <div>
             <div className="flex items-center justify-center w-full my-6 desktop1:my-10">
-              {/* <picture>
+              <picture>
                 <source
                   media="(max-width: 640px)"
                   srcSet={logoMobile}
@@ -49,8 +49,7 @@ export default function Hero({ imagemFocadaBackground }) {
                   width={360}
                   height={200}
                 />
-              </picture> */}
-              <div className="bg-gray-300 w-[300px] h-[200px]"></div>
+              </picture>
             </div>
           </div>
           {imagemFocadaBackground && (
@@ -119,5 +118,5 @@ export default function Hero({ imagemFocadaBackground }) {
         </div>
       </div>
     </>
-  )
+  );
 }
