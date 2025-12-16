@@ -194,7 +194,7 @@ const content = {
         index: 1,
         texto: (
           <p>
-            Dedicação total para traçar a
+            ✓ Dedicação total para traçar a
             <strong> viabilidade e os riscos</strong> do seu caso
           </p>
         ),
@@ -203,7 +203,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Detalhamento técnico da
+            ✓ Detalhamento técnico da
             <strong> viabilidade, riscos e etapas </strong>necessárias
           </p>
         ),
@@ -212,7 +212,7 @@ const content = {
         index: 3,
         texto: (
           <p>
-            Atualizações transparentes sobre o em
+            ✓ Atualizações transparentes sobre o em
             <strong>andamento do seu caso </strong>tempo real
           </p>
         ),
