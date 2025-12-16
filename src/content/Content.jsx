@@ -7,22 +7,21 @@ import {
   Angry,
   FileX,
   Hammer,
-} from 'lucide-react'
-import imgLogo from '../assets/logo.webp'
-import imgHero from '../assets/hero.webp'
-import imgAbout from '../assets/about.webp'
-import imgBackground from '../assets/background.webp'
+} from "lucide-react";
+import imgLogo from "../assets/logo.webp";
+import imgHero from "../assets/hero.webp";
+import imgAbout from "../assets/about.webp";
+import imgBackground from "../assets/background.webp";
 
 export const infos = {
-  namePessoa: 'Dra. Viviane',
   telefone: {
-    ddd: '11',
-    primeiraParte: '98929',
-    segundaParte: '1806',
+    ddd: "11",
+    primeiraParte: "96358",
+    segundaParte: "7483",
   },
   mensagemWhatsapp:
-    'Olá! Vim através do site e gostaria de tirar algumas dúvidas sobre meu caso.',
-}
+    "Olá! Vim através do site e gostaria de tirar algumas dúvidas sobre meu caso.",
+};
 
 const content = {
   hero: {
@@ -32,86 +31,111 @@ const content = {
       logo: imgLogo,
     },
     texts: {
-      etiqueta: 'ADVOGADA TRIBUTARISTA EM SÃO PAULO - SP',
+      etiqueta:
+        "⚖️ Escritório Sediado em Santo André Com Atendimento Em Todo O ABC Paulista E Grande SP",
       titulo: (
         <p>
-          Transformo complexidade em
-          <strong className="text-lighter"> paz</strong>{' '}
+          O engenheiro constrói. O médico cuida. <br />
+          Mas é o<strong className="text-lighter"> ADVOGADO</strong> quem
+          defende seus direitos quando tudo desmorona
         </p>
       ),
       subtitulo:
-        'Seja no Tributário, Empresarial ou na busca pelo seu Previdenciário. Meu foco é a segurança do seu patrimônio e futuro.',
-      labelBotaoPrincial: 'Falar com a Advogada Especialista',
-      labelBotaoSecundario: 'Agendar Horário  ',
+        "Atuo em demandas trabalhistas, de família e de direito do consumidor, assumindo seu caso com foco absoluto, estratégia precisa e comunicação clara, para garantir o máximo de proteção aos seus direitos e a solução mais vantajosa possível",
+      labelBotaoPrincial: "Falar com Advogado no Whatsapp",
+      labelBotaoSecundario: "Agendar Horário",
     },
   },
 
   features: {
     texts: {
-      titulo: 'Minha Atuação: Estratégia e Clareza',
-      labelBotaoPrincial: 'Entre em Contato Para Conversarmos',
+      titulo: "Cuido do seu caso trabalhista com excelência",
+      labelBotaoPrincial: "Preciso de Ajuda com Meu Caso Trabalhista",
     },
     cards: [
       {
         index: 1,
         icone: BriefcaseBusiness,
-        titulo: 'Direito Tributário',
+        titulo: "Direito do Empregador",
         descricao:
-          'Elaboro o planejamento tributário para que você obtenha a economia fiscal legal e proteja seu patrimônio empresarial.',
-        labelBotaoModal: 'Saiba mais',
+          "Protejo sua empresa com consultoria, gestão de passivo trabalhista e defesa em ações judiciais.",
+        labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
-            A_Definir
+            Ofereço proteção jurídica estratégica para empresas, atuando com
+            firmeza, técnica e visão preventiva para eliminar riscos, evitar
+            passivos e fortalecer as relações de trabalho.
             <br />
-            A_Definir
+            Com atuação precisa, compliance trabalhista e soluções eficazes, o
+            escritório garante segurança jurídica, redução de litígios e suporte
+            completo na gestão de pessoas, porque para nós a empresa forte é
+            aquela que atua com segurança, responsabilidade e total respaldo
+            legal.
           </p>
         ),
       },
       {
         index: 2,
         icone: Hammer,
-        titulo: 'Direito Empresarial',
+        titulo: "Direito do Trabalhador",
         descricao:
-          'Atuo na estruturação societária e contratual para oferecer segurança jurídica, permitindo que seu negócio se desenvolva com tranquilidade',
-        labelBotaoModal: 'Saiba mais',
+          "Corrijo demissão injusta, verbas atrasadas, assédio e outros problemas no trabalho.",
+        labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
-            A_Definir
+            Firmeza e prioridade absoluta na defesa do trabalhador, sendo a voz
+            de quem enfrenta abusos e injustiças nas relações de trabalho.
             <br />
             <br />
-            A_Definir
+            Com proteção total, estratégia sólida e compromisso inabalável, o
+            escritório luta até o fim para garantir respeito, direitos e justiça
+            real para quem faz o trabalho acontecer, porque para nós os direitos
+            do trabalhador não se negociam — o seu direito é a nossa causa.
           </p>
         ),
       },
       {
         index: 3,
         icone: Users,
-        titulo: 'Direito Previdenciário',
+        titulo: "Direito De Família",
         descricao:
-          'Analiso seu histórico contributivo e busco o direito à aposentadoria ou benefício justo, lidando com os pedidos negados do INSS.',
-        labelBotaoModal: 'Saiba mais',
+          "Apoio em divórcio, pensão, guarda e partilha de forma humana e segura.",
+        labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
-            A_Definir
+            Nilton Correia Advocacia e Assessoria Jurídica atua com firmeza,
+            equilíbrio e sensibilidade no Direito de Família, oferecendo apoio
+            jurídico estratégico em divórcios, pensão alimentícia, guarda,
+            regulamentação de visitas, partilha de bens e conflitos familiares.
             <br />
             <br />
-            A_Definir
+            Com técnica, humanidade e total compromisso com a proteção dos
+            vínculos e interesses envolvidos, o escritório busca soluções
+            justas, seguras e pacíficas, porque para nós cada família merece
+            respeito, acolhimento e a garantia integral de seus direitos.
           </p>
         ),
       },
       {
         index: 4,
         icone: Tag,
-        titulo: 'Direito Civil',
+        titulo: "Direito Do Consumidor",
         descricao:
-          'Ofereço assessoria em questões de herança, família e contratos, protegendo legalmente o seu bem-estar e patrimônio.',
-        labelBotaoModal: 'Saiba mais',
+          "Defendo você contra cobranças abusivas, golpes, contratos e serviços falhos.",
+        labelBotaoModal: "Saiba mais",
         textoModal: (
           <p>
-            A_Definir
+            Nilton Correia Advocacia e Assessoria Jurídica atua com firmeza na
+            defesa do consumidor, enfrentando práticas abusivas, cobranças
+            indevidas, fraudes, negativas de cobertura, vícios de produtos e
+            serviços, garantindo respeito, indenização e a reparação integral
+            dos danos sofridos.
             <br />
             <br />
-            A_Definir
+            Com estratégia sólida, técnica apurada e compromisso absoluto com a
+            justiça, o escritório assegura que seus direitos sejam reconhecidos
+            e aplicados, porque para nós o consumidor merece proteção real e
+            imediata — e essa é a nossa causa.
           </p>
         ),
       },
@@ -120,56 +144,47 @@ const content = {
 
   transformacao: {
     texts: {
-      titulo: 'Da Incerteza à Estratégia Jurídica',
-      labelBotaoPrincial: 'Agendar análise estratégica do meu caso',
+      titulo: "Recupere Sua Paz Resolvendo Seus Problemas",
+      labelBotaoPrincial: "Preciso Da Ajuda De Um Advogado",
     },
     antes: {
-      etiqueta: 'ANTES',
+      etiqueta: "ANTES",
       pontos: [
         {
           index: 1,
-          texto: 'O desconhecimento sobre leis afeta sua rotina e patrimônio',
+          texto:
+            "Você se sente injustiçado(a) mas não sabe o que fazer pra resolver",
         },
         {
           index: 2,
           texto:
-            'Há falta de clareza sobre riscos fiscais ou a viabilidade do seu direito',
+            "Sabe que precisa de um advogado mas não sente segurança pra contratar um",
         },
         {
           index: 3,
           texto:
-            'Você perde tempo e recursos em procedimentos e burocracias complexas',
-        },
-        {
-          index: 4,
-          texto:
-            'A incerteza jurídica causa insegurança e falta de planejamento para o futuro',
+            "Tem sempre a sensação de que deveria entrar com uma ação e com isso quitar suas dívidas",
         },
       ],
     },
 
     depois: {
-      etiqueta: 'DEPOIS',
+      etiqueta: "DEPOIS",
       pontos: [
         {
           index: 1,
           texto:
-            'Eu realizo a análise aprofundada do seu caso e elaboro o planejamento estratégico',
+            "Você vive em paz sabendo que seu caso está em andamento, sempre sendo informado(a)",
         },
         {
           index: 2,
           texto:
-            'Você recebe informações claras e acompanhamento direto para entender o andamento processual',
+            "Você fala comigo sempre que precisa, não precisando mais procurar outros profissionais",
         },
         {
           index: 3,
           texto:
-            'Seus procedimentos e documentos são revisados e organizados com rigor técnico',
-        },
-        {
-          index: 4,
-          texto:
-            'Você obtém segurança e clareza para tomar decisões importantes sobre seu patrimônio e futuro',
+            "Dorme tranquilo(a) sabendo que seu caso está em ótimas mãos e que lutarei pelo seu direito",
         },
       ],
     },
@@ -180,22 +195,22 @@ const content = {
       background: imgBackground,
     },
     texts: {
-      etiqueta: 'NÃO ESPERE NEM MAIS UM SEGUNDO',
+      etiqueta: "Não espere nem mais um segundo",
 
       titulo: (
         <h2>
-          Pronto para iniciar sua <strong> estratégia jurídica</strong>?
+          Cada minuto que você não corre atrás dos seus direitos,
+          <strong> você pode estar sendo lesado(a)!</strong>
         </h2>
       ),
-      labelBotaoPrincial: 'Entre em Contato Para Conversarmos',
+      labelBotaoPrincial: "Quero Resolver Agora Mesmo",
     },
     pontos: [
       {
         index: 1,
         texto: (
           <p>
-            Dedicação total para traçar a
-            <strong> viabilidade e os riscos</strong> do seu caso
+            Atendimento para<strong> todo o Brasil</strong>
           </p>
         ),
       },
@@ -203,8 +218,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Detalhamento técnico da
-            <strong> viabilidade, riscos e etapas </strong>necessárias
+            Mantenho você<strong> informado </strong>do início ao fim
           </p>
         ),
       },
@@ -212,8 +226,7 @@ const content = {
         index: 3,
         texto: (
           <p>
-            Atualizações transparentes sobre o em
-            <strong>andamento do seu caso </strong>tempo real
+            Respondo <strong>rápido </strong>no Whatsapp
           </p>
         ),
       },
@@ -225,16 +238,15 @@ const content = {
       imgPessoa: imgAbout,
     },
     texts: {
-      titulo: 'PORQUE MEUS CLIENTES CONFIAM EM MIM',
-      labelBotaoPrincial: 'Falar diretamente com a advogada',
+      titulo: "Por Que Meus Clientes Confiam Em Mim",
+      labelBotaoPrincial: "Fale Diretamente Comigo",
     },
     pontos: [
       {
         index: 1,
         texto: (
           <p>
-            13 anos de <strong>vivência prática no mundo dos negócios</strong>,
-            o que proporciona uma compreensão profunda do lado do empresário.
+            Respondo <strong>rápido</strong> porque sei que o seu tempo importa.
           </p>
         ),
       },
@@ -242,8 +254,7 @@ const content = {
         index: 2,
         texto: (
           <p>
-            Dedicação a uma assessoria jurídica{' '}
-            <strong>estratégica e focada em resultados reais.</strong>{' '}
+            Estou sempre <strong>estudando</strong> todas as mudanças nas leis.
           </p>
         ),
       },
@@ -251,8 +262,8 @@ const content = {
         index: 3,
         texto: (
           <p>
-            Transformar a visão de negócios em
-            <strong>segurança para o crescimento</strong> do cliente.
+            <strong>Ampla experiência</strong> na Advocacia e muitos clientes
+            satisfeitos.
           </p>
         ),
       },
@@ -260,8 +271,8 @@ const content = {
         index: 4,
         texto: (
           <p>
-            Busca constante por
-            <strong> excelência técnica</strong> na atuação como advogada.
+            Não faço promessas falsas: Estudo seu caso e te auxilio
+            <strong> sem enrolação.</strong>
           </p>
         ),
       },
@@ -269,8 +280,8 @@ const content = {
         index: 5,
         texto: (
           <p>
-            Ofereço uma <strong>visão 360º</strong> para a proteção patrimonial,
-            dada a diversidade de clientes.
+            Trabalho com os sistemas <strong>mais modernos</strong> pra ser o
+            mais ágil possível.
           </p>
         ),
       },
@@ -282,16 +293,17 @@ const content = {
       background: imgBackground,
     },
     texts: {
-      etiqueta: 'CHEGOU A HORA DE RESOLVER',
+      etiqueta: "Chegou a hora de resolver",
       titulo: (
         <h2>
           Entre em contato e vou fazer uma <strong>análise imediata</strong> do
-          seu caso
+          seu caso.
         </h2>
       ),
-      labelBotaoPrincial: 'Falar comigo agora',
-      direitosReservados: `2025 • ${infos.namePessoa} • Todos os direitos reservados • `,
-      desenvolvidoPor: 'Desenvolvido com excelência por Paper Street',
+      labelBotaoPrincial: "Quero Ser Atendido Agora",
+      direitosReservados:
+        "2025 • Dr. Nilton Correia • Todos os direitos reservados • ",
+      desenvolvidoPor: "Desenvolvido com excelência por Paper Street",
       privacidade: (
         <div class="phone3:max-w-3xl mx-auto tablet1:px-6 text-gray-900 leading-relaxed font-secondFont">
           <h1 class="text-3xl font-bold mb-6">Política de Privacidade</h1>
@@ -317,7 +329,7 @@ const content = {
 
           <ul class="list-disc ml-6 mb-6 space-y-2">
             <li>
-              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{' '}
+              <strong>Autoridade Nacional de Proteção de Dados (ANPD):</strong>{" "}
               órgão responsável pela fiscalização e aplicação da LGPD.
             </li>
 
@@ -525,9 +537,9 @@ const content = {
       ),
     },
     pontos: {
-      ponto1: 'Profissionalismo',
-      ponto2: 'Experiência',
-      ponto3: 'Resultados',
+      ponto1: "Profissionalismo",
+      ponto2: "Experiência",
+      ponto3: "Resultados",
     },
   },
 
@@ -564,6 +576,6 @@ const content = {
       </svg>
     ),
   },
-}
+};
 
-export default content
+export default content;
